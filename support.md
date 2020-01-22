@@ -6,7 +6,7 @@ The Trip Reader app is a Free app developed by an individual and does not carry 
 
 However, suggestions, comments and any form of feedback are more than welcome. 
 
-To contact the developer, please email to reader@domosekai.com.
+To contact the developer, please email to support@domosekai.com.
 
 **简体中文**
 
@@ -14,7 +14,7 @@ To contact the developer, please email to reader@domosekai.com.
 
 但是，我非常欢迎任何意见、建议或反馈。
 
-如有需要请写邮件至reader@domosekai.com。
+如有需要请写邮件至support@domosekai.com。
 
 **繁體中文**
 
@@ -22,7 +22,7 @@ To contact the developer, please email to reader@domosekai.com.
 
 但是，我非常歡迎任何意見、建議或反饋。
 
-如有需要請寫郵件至reader@domosekai.com。
+如有需要請寫郵件至support@domosekai.com。
 
 **日本語**
 
@@ -30,4 +30,4 @@ To contact the developer, please email to reader@domosekai.com.
 
 しかし、コメントやアドバイスなどは大歓迎です。
 
-reader@domosekai.comにメールしてください。
+support@domosekai.comにメールしてください。
