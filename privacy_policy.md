@@ -10,13 +10,9 @@ The terms used in this Privacy Policy have the same meanings as in our Terms and
 
 **Information Collection and Use**
 
-For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information, including but not limited to device ID and other information. The information that I request will be retained on your device and is not collected by me in any way.
+For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information, including but not limited to device ID, usage and other information. The information that I request will be retained on your device and is not collected by me in any way.
 
 The app does use third party services that may collect information used to identify you.
-
-Link to privacy policy of third party service providers used by the app
-
-*   [Google Play Services](https://www.google.com/policies/privacy/)
 
 **Log Data**
 
@@ -49,7 +45,7 @@ This Service may contain links to other sites. If you click on a third-party lin
 
 **Children’s Privacy**
 
-These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13\. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do necessary actions.
+I do not knowingly collect personally identifiable information from children under 13\. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do necessary actions.
 
 **Changes to This Privacy Policy**
 
