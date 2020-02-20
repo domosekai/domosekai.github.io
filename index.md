@@ -1,5 +1,8 @@
 ## Introduction
 
+Trip Reader is an NFC card reader app that supports public transit cards issued across China. 
+Compared with other similar products, Trip Reader focuses on the display of rail transit line station names and bus routes. It is mainly intended for ordinary users, while also taking into account the needs of professional users and card lovers.
+
 读卡识途(Trip Reader)是一款NFC读卡APP，提供中国各地公交卡查询。与其他同类产品相比，读卡识途侧重于轨道交通线路站名和公交线路的显示，主要面向普通用户，同时兼顾专业人士和卡类爱好者的需求。
 
 目前已在Apple和Google官方商店上架。国内安卓商店上架时间未定。
@@ -8,7 +11,7 @@
 
 <a href='https://play.google.com/store/apps/details?id=com.domosekai.cardreader'><img alt='Get it on Google Play' width="160" src='google-play-badge.png' hspace="50"/></a>
 
-## FAQ
+## FAQ (Chinese only)
 
 - **为什么开发这个APP？**
 
