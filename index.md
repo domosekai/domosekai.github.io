@@ -5,13 +5,21 @@ Compared with other similar products, Trip Reader focuses on the display of rail
 
 读卡识途(Trip Reader)是一款NFC读卡APP，提供中国各地公交卡查询。与其他同类产品相比，读卡识途侧重于轨道交通线路站名和公交线路的显示，主要面向普通用户，同时兼顾专业人士和卡类爱好者的需求。
 
-目前已在Apple、Google Play和华为市场上架。
+目前已在Apple、Google Play和华为市场（仅中国大陆）上架。
 
 <a href='https://apps.apple.com/cn/app/%E8%AF%BB%E5%8D%A1%E8%AF%86%E9%80%94-nfc%E8%AF%BB%E5%8D%A1%E5%99%A8/id1488582968?mt=8'><img alt='Download on the App Store' width="140" hspace="60" src='Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg'/></a>
 
 <a href='https://play.google.com/store/apps/details?id=com.domosekai.cardreader'><img alt='Get it on Google Play' width="160" src='google-play-badge.png' hspace="50"/></a>
 
 <a href='https://appstore.huawei.com/app/C101780187'><img alt='Download on AppGallery' width="160" src='AppGallery_DownlaodBadge_ENG.png' hspace="50"/></a>
+
+## Acknowledgment
+
+感谢向本项目提供大量数据的热心用户（敬称略）：
+
+Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, 虹羽, 龙腾四海, 马丁, 千葉, 晴转の多云, 随便, 笑脸, 肖新宇, 眼泪, 羊局驼段, 恒沐, 雨鸽, 走马行酒醴, 同宇工作室, 夜空守望者
+
+同时感谢所有给予我反馈、建议、协助补充卡片名称的用户（名单太长了恕从略）。
 
 ## FAQ (Chinese only)
 
@@ -79,15 +87,15 @@ Compared with other similar products, Trip Reader focuses on the display of rail
       
       - 不连号
       
-         如您测得A站编号10，B站编号20，但A和B站中并不是9个站。常见的原因：中间有预留站或新建站，或者这条线分几期建设，每一期编号不同。
+      如您测得A站编号10，B站编号20，但A和B站中并不是9个站。常见的原因：中间有预留站或新建站，或者这条线分几期建设，每一期编号不同。
          
       - 换乘站或共线站
       
-         比如A站是1号线和2号线的换乘站，那么A站可能在1、2号线上都有编号，也可能只在一条线上有编号。
+      比如A站是1号线和2号线的换乘站，那么A站可能在1、2号线上都有编号，也可能只在一条线上有编号。
          
       - 分支线
       
-         指一条线有多于两个终点，需要注意分支站点的编号规则，以及分岔站的编号。
+      指一条线有多于两个终点，需要注意分支站点的编号规则，以及分岔站的编号。
          
       公交线路如果写入记录，一般也在“线路和站点”的位置。可能是十进制，也可能十六进制。
       请多坐几趟车找找规律，并注意非数字线路，即各种汉字或字母+数字的线路。
