@@ -5,7 +5,7 @@ Compared with other similar products, Trip Reader focuses on the display of rail
 
 读卡识途(Trip Reader)是一款NFC读卡APP，提供中国各地公交卡查询。与其他同类产品相比，读卡识途侧重于轨道交通线路站名和公交线路的显示，主要面向普通用户，同时兼顾专业人士和卡类爱好者的需求。
 
-目前已在Apple、Google Play上架，中国大陆用户也可从华为应用市场和小米应用商店下载。
+目前已在Apple、Google Play上架，中国大陆用户也可从[华为应用市场](https://appstore.huawei.com/app/C101780187)和[小米应用商店](http://app.xiaomi.com/detail/1022299)下载。
 
 <a href='https://apps.apple.com/cn/app/%E8%AF%BB%E5%8D%A1%E8%AF%86%E9%80%94-nfc%E8%AF%BB%E5%8D%A1%E5%99%A8/id1488582968?mt=8'><img alt='Download on the App Store' width="140" hspace="60" src='Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg'/></a>
 
