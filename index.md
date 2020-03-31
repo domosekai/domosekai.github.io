@@ -15,11 +15,11 @@ Compared with other similar products, Trip Reader focuses on the display of rail
 
 感谢向本项目提供大量数据的热心用户（敬称略）：
 
-Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, 虹羽, 龙腾四海, 马丁, 千葉, 晴转の多云, 随便, 笑脸, 肖新宇, 眼泪, 羊局驼段, 恒沐, 雨鸽, 走马行酒醴, 同宇工作室, 夜空守望者, 北陽, BH2SEB, 机智轩の微視角, 兰love新一
+Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, 虹羽, 龙腾四海, 马丁, 千葉, 晴转の多云, 随便, 笑脸, 肖新宇, 眼泪, 羊局驼段, 恒沐, 雨鸽, 走马行酒醴, 同宇工作室, 夜空守望者, 北陽, BH2SEB, 机智轩の微視角, 兰love新一, HXD3CA7501, 龙牙
 
 同时感谢所有给予我反馈、建议、协助补充卡片名称的用户（名单太长了恕从略）。
 
-## 各地交联卡已知问题 T-Union known issues by region
+## 各地交联卡写错城市和交通工具汇总 T-Union known issues by region
 
 - 辽宁省
 
@@ -74,6 +74,8 @@ Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, �
 - 江西省
 
    南昌地铁：部分闸机不写1E文件，无法识别交易地和交易类型
+   
+   九江公交：将交易地错写为发卡地
    
 - 四川省
 
