@@ -7,6 +7,8 @@ Compared with other similar products, Trip Reader focuses on the display of rail
 
 目前已在Apple、Google Play上架，中国大陆用户也可从[华为应用市场](https://appstore.huawei.com/app/C101780187)和[小米应用商店](http://app.xiaomi.com/detail/1022299)下载。
 
+其他品牌手机用户可使用电脑访问以上应用市场下载安装包，也可使用非官方渠道如豌豆荚（可下载和更新）、应用宝（可更新）。
+
 <a href='https://apps.apple.com/cn/app/%E8%AF%BB%E5%8D%A1%E8%AF%86%E9%80%94-nfc%E8%AF%BB%E5%8D%A1%E5%99%A8/id1488582968?mt=8'><img alt='Download on the App Store' width="140" hspace="60" src='Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg'/></a>
 
 <a href='https://play.google.com/store/apps/details?id=com.domosekai.cardreader'><img alt='Get it on Google Play' width="160" src='google-play-badge.png' hspace="50"/></a>
@@ -15,7 +17,7 @@ Compared with other similar products, Trip Reader focuses on the display of rail
 
 感谢向本项目提供大量数据的热心用户（敬称略）：
 
-Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, 虹羽, 龙腾四海, 马丁, 千葉, 晴转の多云, 随便, 笑脸, 肖新宇, 眼泪, 羊局驼段, 恒沐, 雨鸽, 走马行酒醴, 同宇工作室, 夜空守望者, 北陽, BH2SEB, 机智轩の微視角, 兰love新一, HXD3CA7501, 龙牙, 暖暖小柿子
+Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, 虹羽, 龙腾四海, 马丁, 千葉, 晴转の多云, 随便, 笑脸, 肖新宇, 眼泪, 羊局驼段, 恒沐, 雨鸽, 走马行酒醴, 同宇工作室, 夜空守望者, 北陽, BH2SEB, 机智轩の微視角, 兰love新一, HXD3CA7501, 龙牙, 暖暖小柿子，艾拉
 
 同时感谢所有给予我反馈、建议、协助补充卡片名称的用户（名单太长了恕从略）。
 
