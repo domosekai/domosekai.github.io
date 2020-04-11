@@ -17,7 +17,7 @@ Compared with other similar products, Trip Reader focuses on the display of rail
 
 感谢向本项目提供大量数据的热心用户（敬称略）：
 
-Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, 虹羽, 龙腾四海, 马丁, 千葉, 晴转の多云, 随便, 笑脸, 肖新宇, 眼泪, 羊局驼段, 恒沐, 雨鸽, 走马行酒醴, 同宇工作室, 夜空守望者, 北陽, BH2SEB, 机智轩の微視角, 兰love新一, HXD3CA7501, 龙牙, 暖暖小柿子, 艾拉, 化身大禹治水的染色体, 杨诚, 城市通卡, WarmMarine
+Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, 虹羽, 龙腾四海, 马丁, 千葉, 晴转の多云, 随便, 笑脸, 肖新宇, 眼泪, 羊局驼段, 恒沐, 雨鸽, 走马行酒醴, 同宇工作室, 夜空守望者, 北陽, BH2SEB, 机智轩の微視角, 兰love新一, HXD3CA7501, 龙牙, 暖暖小柿子, 艾拉, 化身大禹治水的染色体, 杨诚, 城市通卡, WarmMarine, ycn
 
 同时感谢所有给予我反馈、建议、协助补充卡片名称的用户（名单太长了恕从略）。
 
@@ -35,6 +35,10 @@ Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, �
 
    吕梁公交：错写为厦门
 
+- 山东省
+
+   济南地铁：不写1E文件，无法识别交易地和交易类型
+   
 - 陕西省
 
    西安公交：部分卡机将交易地错写为发卡地
@@ -75,7 +79,7 @@ Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, �
 
    杭州公交：不写1E文件，无法识别交易地和交易类型
    
-   宁波、湖州公交：卡机错写襄阳
+   宁波、湖州公交：错写为襄阳
    
 - 福建省
 
@@ -98,6 +102,8 @@ Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, �
    衡阳公交：错写为铜仁
    
    永州、株洲公交：不写1E文件，无法识别交易地和交易类型
+   
+   张家界公交：错写为发卡地
 
 - 广东省
 
@@ -117,7 +123,7 @@ Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, �
    
    南宁公交：部分卡机不写1E文件，无法识别交易地和交易类型
    
-   桂林公交：部分卡机错写为黔西南州
+   桂林公交：错写为黔西南
    
 ## FAQ (Chinese only)
 
