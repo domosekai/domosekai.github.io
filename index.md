@@ -31,6 +31,10 @@ Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, �
 
    滨海公交：将交易地错写为发卡地
    
+- 河北省
+
+   邢台公交：将交易地错写为发卡地
+   
 - 山西省
 
    吕梁公交：错写为厦门
