@@ -17,7 +17,7 @@ Compared with other similar products, Trip Reader focuses on the display of rail
 
 感谢向本项目提供大量数据的热心用户（敬称略）：
 
-Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, 虹羽, 龙腾四海, 马丁, 千葉, 晴转の多云, 随便, 笑脸, 肖新宇, 眼泪, 羊局驼段, 恒沐, 雨鸽, 走马行酒醴, 同宇工作室, 夜空守望者, 北陽, BH2SEB, 机智轩の微視角, 兰love新一, HXD3CA7501, 龙牙, 暖暖小柿子, 艾拉, 化身大禹治水的染色体, 杨诚, 城市通卡, WarmMarine, ycn, Robert Lyu, Guy Zhang, 无聊
+Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, 虹羽, 龙腾四海, 马丁, 千葉, 晴转の多云, 随便, 笑脸, 肖新宇, 眼泪, 羊局驼段, 恒沐, 雨鸽, 走马行酒醴, 同宇工作室, 夜空守望者, 北陽, BH2SEB, 机智轩の微視角, 兰love新一, HXD3CA7501, 龙牙, 暖暖小柿子, 艾拉, 化身大禹治水的染色体, 杨诚, 城市通卡, WarmMarine, ycn, Robert Lyu, Guy Zhang, 无聊, 魔王, Neptune
 
 同时感谢所有给予我反馈、建议、协助补充卡片名称的用户（名单太长了恕从略）。
 
@@ -32,6 +32,10 @@ Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, �
 - 吉林省
 
    长春公交：将交易地错写为吉林市
+
+- 黑龙江省
+
+   哈尔滨公交：部分卡机将交易地错写为枣庄市
 
 - 天津市
 
@@ -104,6 +108,8 @@ Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, �
 - 四川省
 
    广元公交：将交易地错写为发卡地
+   
+   宜宾公交：将交易地错写为0755，收单城市错写为延安市
    
 - 湖南省
 
