@@ -17,9 +17,9 @@ Compared with other similar products, Trip Reader focuses on the display of rail
 
 感谢向本项目提供大量数据的热心用户（敬称略）：
 
-Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, 虹羽, 龙腾四海, 马丁, 千葉, 晴转の多云, 随便, 笑脸, 肖新宇, 眼泪, 羊局驼段, 恒沐, 雨鸽, 走马行酒醴, 同宇工作室, 夜空守望者, 北陽, BH2SEB, 机智轩の微視角, 兰love新一, HXD3CA7501, 龙牙, 暖暖小柿子, 艾拉, 化身大禹治水的染色体, 杨诚, 城市通卡, WarmMarine, ycn, Robert Lyu, Guy Zhang, 无聊, 魔王, Neptune, 細貓Lil Cat, 黄柏之
+Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, 虹羽, 龙腾四海, 马丁, 千葉, 晴转の多云, 随便, 笑脸, 肖新宇, 眼泪, 羊局驼段, 恒沐, 雨鸽, 黑森林里会迷路, 走马行酒醴, 同宇工作室, 夜空守望者, 北陽, BH2SEB, 机智轩の微視角, 兰love新一, HXD3CA7501, 龙牙, 暖暖小柿子, 艾拉, 化身大禹治水的染色体, 杨诚, 城市通卡, WarmMarine, ycn, Robert Lyu, Guy Zhang, 无聊, 魔王, Neptune, 細貓Lil Cat, 黄柏之
 
-同时感谢所有给予我反馈、建议、协助补充卡片名称的用户（名单太长了恕从略）。
+同时感谢所有给予我反馈、建议、协助补充卡片名称的用户（名单太长恕从略）。
 
 ## 各地交联卡写错城市和交通工具汇总 T-Union known issues by region
 
@@ -48,6 +48,8 @@ Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, �
    邢台公交：将交易地错写为发卡地
    
    唐山公交：对本地卡不写1E文件，无法识别交易地和交易类型
+   
+   廊坊公交：交易地代码写0650，收单机构写成发卡机构
    
 - 山西省
 
@@ -111,7 +113,7 @@ Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, �
 
 - 浙江省
 
-   杭州地铁和公交、宁波3号线：不写1E文件，无法识别交易地和交易类型
+   杭州地铁和公交、宁波3号线、宁波2号线二期段：不写1E文件，无法识别交易地和交易类型
    
    宁波、湖州公交：部分卡机（亿达）错写为襄阳
       
@@ -174,7 +176,7 @@ Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, �
 - **为什么开发这个APP？**
 
    以前在日本旅行时使用过日本读卡APP，对其细致程度深感震惊。不仅轨道交通和公交线路所有站点名字，连闸机在车站的哪个出口第几台都能显示。
-   但当时囿于能力和精力，并未起心动念自己开发。
+   但当时囿于能力和精力，并未起心动念开发。
    
    直到2019年9月，iOS 13开放了NFC读卡功能，而我恰好有一段空闲时间，遂从10月起投入读卡器的开发。
    
