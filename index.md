@@ -17,7 +17,7 @@ Compared with other similar products, Trip Reader focuses on the display of rail
 
 感谢向本项目提供大量数据的热心用户（敬称略）：
 
-Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, 虹羽, 龙腾四海, 马丁, 千葉, 晴转の多云, 随便, 笑脸, 肖新宇, 眼泪, 羊局驼段, 恒沐, 雨鸽, 黑森林里会迷路, 走马行酒醴, 同宇工作室, 夜空守望者, 北陽, BH2SEB, 机智轩の微視角, 兰love新一, HXD3CA7501, 龙牙, 暖暖小柿子, 艾拉, 化身大禹治水的染色体, 杨诚, 城市通卡, WarmMarine, ycn, Robert Lyu, Guy Zhang, 无聊, 魔王, Neptune, 細貓Lil Cat, 黄柏之
+Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, 虹羽, 龙腾四海, 马丁, 千葉, 晴转の多云, 随便, 笑脸, 肖新宇, 眼泪, 羊局驼段, 恒沐, 雨鸽, 黑森林里会迷路, 走马行酒醴, 同宇工作室, 夜空守望者, 北陽, BH2SEB, 机智轩の微視角, 兰love新一, HXD3CA7501, 龙牙, 暖暖小柿子, 艾拉, 化身大禹治水的染色体, 杨诚, 城市通卡, WarmMarine, ycn, Robert Lyu, Guy Zhang, 无聊, 魔王, Neptune, 細貓Lil Cat, 黄柏之, line17, 小鱼吐泡泡
 
 同时感谢所有给予我反馈、建议、协助补充卡片名称的用户（名单太长恕从略）。
 
@@ -110,6 +110,8 @@ Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, �
    连云港、南通、江阴、张家港、溧阳、宝应县公交：部分卡机不写1E文件，无法识别交易地和交易类型
       
    金湖县、盱眙县公交、无锡出租车：将交易地错写为发卡地
+   
+   太仓市：部分卡机（雄帝）将交易地错写为包头
 
 - 浙江省
 
