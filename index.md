@@ -6,8 +6,7 @@ Compared with other similar products, Trip Reader focuses on the display of rail
 读卡识途(Trip Reader)是一款NFC读卡APP，提供中国各地公交卡查询。与其他同类产品相比，读卡识途侧重于轨道交通线路站名和公交线路的显示，主要面向普通用户，同时兼顾专业人士和卡类爱好者的需求。
 
 目前已在Apple、Google Play上架，中国大陆用户也可从[华为应用市场](https://appstore.huawei.com/app/C101780187)和[小米应用商店](http://app.mi.com/details?id=com.domosekai.cardreader)下载。
-
-其他品牌手机用户可使用电脑访问以上应用市场下载安装包，也可使用非官方渠道如豌豆荚（可下载和更新）、应用宝（可更新）。
+其他品牌手机用户可使用电脑访问应用市场下载安装包。
 
 <a href='https://apps.apple.com/cn/app/%E8%AF%BB%E5%8D%A1%E8%AF%86%E9%80%94-nfc%E8%AF%BB%E5%8D%A1%E5%99%A8/id1488582968?mt=8'><img alt='Download on the App Store' width="140" hspace="60" src='Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg'/></a>
 
@@ -59,15 +58,17 @@ Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, �
    
    吕梁公交：卡机（雄帝）错写为厦门
    
-   晋中、临汾公交：卡机（恒宇）将交易地写上次交易地（app已尽量修正）
+   晋中、临汾公交：卡机（恒宇）将交易地写上次交易地
    
    朔州公交：卡机（雄帝）将交易地错写为发卡地
+   
+   阳泉公交：卡机（公用）在城市代码写江苏省，收单机构写晋城市
 
 - 山东省
 
    济南地铁：不写1E文件，无法识别交易地和交易类型
    
-   枣庄、菏泽公交：卡机（恒宇）将交易地写上次交易地（app已尽量修正）
+   枣庄、菏泽公交：卡机（恒宇）将交易地写上次交易地
    
    威海公交：部分卡机（雄帝）错写为揭阳
    
@@ -89,7 +90,7 @@ Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, �
 
    郑州地铁：部分闸机不写1E文件，无法识别交易地和交易类型
    
-   开封公交：卡机（雄帝）错写为发卡地（暂通过识别运营代码修正）
+   开封公交：卡机（雄帝）错写为发卡地
    
    许昌公交：卡机（雄帝）错写为海口（与淮北问题相同，app暂不显示城市名）
    
@@ -114,6 +115,8 @@ Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, �
    淮安公交、无锡出租车：将交易地错写为发卡地
    
    太仓市：部分卡机（雄帝）将交易地错写为包头
+   
+   靖江市：卡机（恒宇）将交易地写上次交易地
 
 - 浙江省
 
@@ -178,6 +181,8 @@ Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, �
 - 甘肃省
 
    定西公交：不写城市和收单机构代码，无法识别交易地
+   
+   白银公交：错写为发卡地
    
 - 新疆自治区
 
