@@ -12,6 +12,14 @@ Compared with other similar products, Trip Reader focuses on the display of rail
 
 <a href='https://play.google.com/store/apps/details?id=com.domosekai.cardreader'><img alt='Get it on Google Play' width="160" src='google-play-badge.png' hspace="50"/></a>
 
+## Database
+
+Some of the data used in Trip Reader is published at the address below to benefit the NFC development activities.
+
+读卡识途使用的部分数据已在以下地址公开，以鼓励NFC相关的开发活动。
+
+https://github.com/domosekai/tripreader-data
+
 ## Acknowledgment
 
 感谢向本项目提供大量数据的热心用户（敬称略）：
