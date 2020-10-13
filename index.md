@@ -14,7 +14,7 @@ Compared with other similar products, Trip Reader focuses on the display of rail
 
 ## Database
 
-Some of the data used in Trip Reader is published at the address below to benefit the NFC development activities.
+Some of the data used in Trip Reader is published at the address below to benefit NFC development activities.
 
 读卡识途使用的部分数据已在以下地址公开，以鼓励NFC相关的开发活动。
 
@@ -40,7 +40,7 @@ Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, �
 
    长春地铁：不写1E文件，无法识别交易地和交易类型
 
-   长春公交：将交易地错写为吉林市
+   长春公交：部分卡机（雄帝）将交易地错写为吉林市
 
 - 黑龙江省
 
