@@ -198,7 +198,7 @@ Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, �
    
 - 新疆自治区
 
-   乌鲁木齐公交：部分卡机（雄帝）错写肇庆
+   乌鲁木齐公交：部分卡机（雄帝）错写肇庆、三亚
 
 ## FAQ (Chinese only)
 
