@@ -1,9 +1,9 @@
-## Trip Reader
+## Trip Reader 读卡识途
 
 Trip Reader is an NFC card reader app that supports public transit cards issued across China. 
 Compared with other similar products, Trip Reader focuses on the display of rail transit line station names and bus routes. It is mainly intended for ordinary users, while also taking into account the needs of professional users and card lovers.
 
-读卡识途(Trip Reader)是一款NFC读卡APP，提供中国各地公交卡查询。与其他同类产品相比，读卡识途侧重于轨道交通线路站名和公交线路的显示，主要面向普通用户，同时兼顾专业人士和卡类爱好者的需求。
+读卡识途是一款NFC读卡APP，提供中国各地公交卡查询。与其他同类产品相比，读卡识途侧重于轨道交通线路站名和公交线路的显示，主要面向普通用户，同时兼顾专业人士和卡类爱好者的需求。
 
 目前已在Apple、Google Play上架，中国大陆用户也可从[华为应用市场](https://appstore.huawei.com/app/C101780187)和[小米应用商店](http://app.mi.com/details?id=com.domosekai.cardreader)下载。
 其他品牌手机用户可使用电脑访问应用市场下载安装包。
@@ -16,7 +16,7 @@ Compared with other similar products, Trip Reader focuses on the display of rail
 
 [已知问题 (Chinese Only)](issues.html)
 
-## Database
+## Open Database
 
 Some of the data used in Trip Reader is published at the address below to benefit NFC development activities.
 
@@ -26,6 +26,8 @@ https://github.com/domosekai/tripreader-data
 
 ## Acknowledgment
 
-Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, 虹羽, 龙腾四海, 马丁, 千葉, 晴转の多云, 随便, 笑脸, 肖新宇, 眼泪, 羊局驼段, 恒沐, 雨鸽, 黑森林里会迷路, 走马行酒醴, 同宇工作室, 夜空守望者, 北陽, BH2SEB, 机智轩の微視角, 兰love新一, HXD3CA7501, 龙牙, 暖暖小柿子, 艾拉, 化身大禹治水的染色体, 杨诚, 城市通卡, WarmMarine, ycn, Robert Lyu, Guy Zhang, 无聊, 魔王, Neptune, 細貓Lil Cat, 黄柏之, line17, 小鱼吐泡泡
+This app has been made better by contributions from (list not complete):
+
+Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, 虹羽, 龙腾四海, 马丁, 千葉, 晴转の多云, 随便, 笑脸, 肖新宇, 眼泪, 羊局驼段, 恒沐, 雨鸽, 黑森林里会迷路, 走马行酒醴, 同宇工作室, 夜空守望者, 北陽, BH2SEB, 机智轩の微視角, 兰love新一, HXD3CA7501, 龙牙, 暖暖小柿子, 艾拉, 化身大禹治水的染色体, 杨诚, 城市通卡, WarmMarine, ycn, Robert Lyu, Guy Zhang, 无聊, 魔王, Neptune, 細貓Lil Cat, 黄柏之, line17, 小鱼吐泡泡, 吃貨一枚, 冰糖炖雪梨咕咕咕, 老赵, 南惊西露, lsr, 上局鄞段
 
 © 2020 Domosekai Limited.  All rights reserved.
