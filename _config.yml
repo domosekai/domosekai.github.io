@@ -1,3 +1,5 @@
 theme: jekyll-theme-leap-day
 markdown: GFM
 title: Welcome to Domosekai
+github:
+  repository_url: https://github.com/domosekai/tripreader-data
