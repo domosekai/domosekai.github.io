@@ -1,5 +1,7 @@
 ---
+layout: default
 title: Trip Reader
+description: NFC Public Transit Card Reader in China
 ---
 
 ## 各地问题汇总
