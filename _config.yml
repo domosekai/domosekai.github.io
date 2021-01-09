@@ -3,3 +3,5 @@ markdown: GFM
 title: Welcome to Domosekai
 github:
   is_project_page: false
+  show_downloads: false
+  repository_url: https://github.com/domosekai
