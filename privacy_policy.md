@@ -1,3 +1,7 @@
+---
+title: Trip Reader
+---
+
 ## Privacy Policy
 
 Yihong Wu built the Trip Reader app as a Free app. This SERVICE is provided by Yihong Wu at no cost and is intended for use as is.
