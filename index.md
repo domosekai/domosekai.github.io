@@ -1,3 +1,7 @@
+---
+layout: default
+title: Welcome to Domosekai
+---
 ## Trip Reader 读卡识途
 
 Trip Reader is an NFC card reader app that supports public transit cards issued across China. 
