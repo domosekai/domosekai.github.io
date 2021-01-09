@@ -4,7 +4,7 @@ title: Trip Reader
 description: NFC Public Transit Card Reader in China
 ---
 
-## Trip Reader 读卡识途
+## Introduction
 
 Trip Reader is an NFC card reader app that supports public transit cards issued across China. 
 Compared with other products, Trip Reader focuses on the display of practical information such as station names and bus routes. It is mainly intended for ordinary users, while also taking into account the needs of professional users and card lovers.
