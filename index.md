@@ -9,9 +9,10 @@ Compared with other products, Trip Reader focuses on the display of practical in
 
 无法使用Google Play的Android用户也可[点此](https://www.domosekai.com/download/tripreader-1.6.2-cn.apk)下载安装包（不可用于升级Google Play版），当前版本1.6.2。
 
-<a href='https://apps.apple.com/cn/app/%E8%AF%BB%E5%8D%A1%E8%AF%86%E9%80%94-nfc%E8%AF%BB%E5%8D%A1%E5%99%A8/id1488582968?mt=8'><img alt='Download on the App Store' width="140" hspace="60" src='Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg'/></a>
-
-<a href='https://play.google.com/store/apps/details?id=com.domosekai.cardreader'><img alt='Get it on Google Play' width="160" src='google-play-badge.png' hspace="50"/></a>
+<p float="left">
+<a href='https://apps.apple.com/cn/app/%E8%AF%BB%E5%8D%A1%E8%AF%86%E9%80%94-nfc%E8%AF%BB%E5%8D%A1%E5%99%A8/id1488582968?mt=8'><img alt='Download on the App Store' height="50" hspace="20" src='Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg'/></a>
+<a href='https://play.google.com/store/apps/details?id=com.domosekai.cardreader'><img alt='Get it on Google Play' height="50" src='google-play-badge.png'/></a>
+</p>
 
 [FAQ (Chinese Only)](faq.html)
 
