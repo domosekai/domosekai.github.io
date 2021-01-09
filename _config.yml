@@ -1,5 +1,5 @@
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-slate
 markdown: GFM
 title: Welcome to Domosekai
 github:
-  show_downloads: false
+  is_project_page: false
