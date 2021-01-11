@@ -77,7 +77,7 @@ Nothing. Your profiles are saved locally (in system settings) and passwords are 
 In the default profile, VPN stays on when your device goes to sleep. You can turn it off in the profile so that VPN reconnects when the phone wakes up. Note that reconnection may take some time.
 
 However, sometimes the phone just refuses to go to sleep and you can confirm it through the connection log (no "Entering sleep mode" shown in the log). 
-This is normal if something is busy in the background (e.g. music is playing). If there is nothing special, try restarting your device.
+This is normal if the phone is charging or something is working in the background (e.g. music is playing). If there is nothing special, try restarting your device.
 
 ### Q: Why there are many "entering sleep mode" and "wake up" messages in the log?
 
