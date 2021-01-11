@@ -15,6 +15,13 @@ You need to provide at least these information:
   - Server address (either domain name or IP)
   - Username and password
 
+### Q: What do I need to fill in as server address? An IP or hostname?
+
+Generally you should use hostnames (domain name) as server addresses, so that you don't need to take care of IP changes.
+
+However, if you are using unreliable DNS service, or you want to enforce IPv4 / IPv6 connections (server is dual-stack), you can fill in IPs instead. 
+In that case, you might also need to fill in the hostname field (server name) to pass TLS validation.
+
 ### Q: What is a hostname and when should I provide it?
 
 In most cases, the hostname is the same as the domain name of the server and you don’t need to provide twice. A hostname is used to verify the identity of the server. If the name in the server’s certificate does not match the hostname, an error occurs and TLS validation fails.
@@ -62,4 +69,5 @@ If it relates to a potential bug, please set log level to "debug" and send the c
 
 ### Q: Can you help with setting up a server?
 
-We can provide general advices to you. If special assistance is required, we will evaluate the situation and may give you a quote.
+We don't make server-side products, but we can provide general advice to you. 
+If special assistance is needed, we will evaluate the situation and (in the case that we can help) may give you a quote.
