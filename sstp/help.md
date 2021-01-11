@@ -53,6 +53,15 @@ https://support.apple.com/en-us/HT211025
 
 For security reasons, certificates signed by public CAs should be used. However if that’s not possible, you can ask your administrator for the root CA certificate and both install and trust it in your device. Note that the certificate still needs to meet iOS requirements, and depending on the certificates and your iOS version, it may not always work. Only disable server trust evaluation as the last resort.
 
+### Q: How to install and trust a certificate?
+
+In iOS, a certificate (usually the root CA) is known as a profile. Email the certificate to your mailbox or download it from the web, then open it on your device. 
+iOS should tell you that the profile is now ready to install.
+
+To install it: https://support.apple.com/en-us/HT209435
+
+To trust it: https://support.apple.com/en-us/HT204477
+
 ## General
 
 ### Q: Can I connect or disconnect via system VPN settings?
