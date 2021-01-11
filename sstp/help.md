@@ -62,6 +62,12 @@ Yes, you can. Your VPN profiles are saved in the system. Therefore, you can conn
 
 Nothing. Your profiles are saved locally (in system settings) and passwords are stored in keychain. Connection logs are only in the memory and never (even temporarily) saved to the device. We do not send or receive anything in the background.
 
+### Q: Your app is draining my battery?
+
+In the default profile, VPN stays on when your device goes to sleep. You can turn it off in the profile so that VPN reconnects when the phone wakes up. Note that reconnection may take some time.
+
+However, sometimes the phone just refuses to go to sleep and you can confirm it through the connection log (no "entering sleep" shown in the log). If that happens, try restarting your device.
+
 ### Q: What if I have more questions?
 
 Send an email to support@domosekai.com and we will look into it. 
