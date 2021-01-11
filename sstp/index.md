@@ -13,7 +13,7 @@ It is a third-party implementation based on Microsoft Open Specifications. We do
 
 ## Features
 
-  - No ads, no analytics. Installed size on iOS 14 is just over 1MB.
+  - No ads, no analytics, no 3rd-party SDK. Installed size on iOS 14 is just over 1MB.
   - No data is collected from you. Moreover, your connection log is only in the memory and never saved to the device.
   - Pure Swift implementation.
   - Native iOS TLS stack ensuring stability and security.
@@ -23,7 +23,7 @@ It is a third-party implementation based on Microsoft Open Specifications. We do
   - Transportation layer: TCP over IPv4 and IPv6
   - Authentication method: Password (EAP-MSCHAPv2, MS-CHAPv2, CHAP and PAP)
   - IP assignment: Automatic (IPv4 and stateless IPv6) and static
-  - Server environment: Microsoft Windows Server, SoftEther VPN, MikroTik RouterOS
+  - Server environment: Microsoft Windows Server, SoftEther VPN & VPN Gate, MikroTik RouterOS
 
 ## Support
 
