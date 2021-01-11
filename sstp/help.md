@@ -40,7 +40,8 @@ Generally speaking, you should never disable TLS validation. However, in some ci
 
 ### Q: What requirements should a server certificate meet in order to pass TLS validation?
 
-Rule of thumb: If you can open the server in Safari (an SSTP server should report 404 and it’s normal) instead of encountering some certificate error, you are good to go.
+Rule of thumb: Add https:// to your server address and open in Safari (e.g. https://yourserveraddress). If it reports a 403 or 404 error, you are good to go (it's normal for an SSTP server since it's not a website). 
+If you encounter some certificate error, you know that TLS validation has failed.
 
 iOS has implemented more strict rules on server certificates since iOS 13. See below links for more information.
 
@@ -66,7 +67,14 @@ Nothing. Your profiles are saved locally (in system settings) and passwords are 
 
 In the default profile, VPN stays on when your device goes to sleep. You can turn it off in the profile so that VPN reconnects when the phone wakes up. Note that reconnection may take some time.
 
-However, sometimes the phone just refuses to go to sleep and you can confirm it through the connection log (no "entering sleep" shown in the log). If that happens, try restarting your device.
+However, sometimes the phone just refuses to go to sleep and you can confirm it through the connection log (no "Entering sleep mode" shown in the log). 
+This is normal if something is busy in the background (e.g. music is playing). If there is nothing special, try restarting your device.
+
+### Q: Why there are many "entering sleep mode" and "wake up" messages in the log?
+
+This is normal. Sleep and wake-up is controlled by system, not by this app. Usually you don't need to care about that.
+
+The expected behavior is, if "stay connected during sleep" is on, the app does nothing when phone sleeps, or disconnects the VPN if the option is off.
 
 ### Q: What if I have more questions?
 
