@@ -1,3 +1,9 @@
+---
+layout: default
+title: SSTP Connect
+description: SSTP VPN Client for iOS
+---
+
 # FAQ
 
 ## Profile
@@ -45,21 +51,15 @@ For security reasons, certificates signed by public CAs should be used. However 
 
 Yes, you can. Your VPN profiles are saved in the system. Therefore, you can connect and disconnect the VPN without opening this app.
 
-### Q: What are the limitations in the trial mode?
-
-Trial mode limits each session to 10 minutes. It gives you an option to test your connections before purchase.
-
 ### Q: What information do you collect from the app?
 
-Nothing. Your profiles are saved locally (in system settings) and passwords are stored in keychain. Connection logs are only in the memory and never (even temporarily) saved to the device. 
-
-Moreover, the app has these features:
-
-  - Zero 3rd-party SDK. This means no ads, no analytics etc. On iOS 14 devices the installed size can be as low as about 1MB.
-  - Pure Swift implementation. 
-  - System native TLS stack (including trust evaluation) for connecting to your servers. This ensures better security and updates automatically with the system.
-  - Zero network connection other than those made to your specified servers. We do not send or receive anything in the background.
+Nothing. Your profiles are saved locally (in system settings) and passwords are stored in keychain. Connection logs are only in the memory and never (even temporarily) saved to the device. We do not send or receive anything in the background.
 
 ### Q: What if I have more questions?
 
-Send an email to support@domosekai.com and we will look into it.
+Send an email to support@domosekai.com and we will look into it. 
+If it relates to a potential bug, please set log level to "debug" and send the connection log along with your mail.
+
+### Q: Can you help with setting up a server?
+
+We can provide general advices to you. If special assistance is required, we will evaluate the situation and may give you a quote.
