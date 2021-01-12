@@ -20,10 +20,10 @@ It is a third-party implementation based on Microsoft Open Specifications. We do
 
 ## Specifications
 
-  - Transportation layer: TCP over IPv4 and IPv6
-  - Authentication method: Password (EAP-MSCHAPv2, MS-CHAPv2, CHAP and PAP)
-  - IP assignment: Automatic (IPv4 and stateless IPv6) and static
-  - Server environment: Microsoft Windows Server, SoftEther VPN & VPN Gate, MikroTik RouterOS
+  - Transport layer: TCP over IPv4 and IPv6
+  - Authentication: Password (EAP-MSCHAPv2, MS-CHAPv2, CHAP and PAP)
+  - Tunnel IP and DNS: Automatic (IPv4 and stateless IPv6) or static
+  - Server platform: Microsoft Windows Server, SoftEther VPN (VPN Gate), MikroTik RouterOS
 
 ## Support
 
