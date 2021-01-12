@@ -12,23 +12,24 @@ description: SSTP VPN Client for iOS
 
 You need to provide at least these information:
   - A description of the connection
-  - Server address (either domain name or IP)
+  - Server address (either a hostname or an IP address)
   - Username and password
 
-### Q: What do I need to fill in as server address? An IP or hostname?
+### Q: What do I need to fill in as server address? An IP or a hostname?
 
-Generally you should use hostnames (domain name) as server addresses, so that you don't need to take care of IP changes.
+Generally you should use a hostname (e.g. vpn.example.com), so that you don't need to take care of IP changes.
 
-However, if you are using unreliable DNS service, or you want to enforce IPv4 / IPv6 connections (server is dual-stack), you can fill in IPs instead. 
-In that case, you might also need to fill in the hostname field (server name) to pass TLS validation.
+However, if your DNS provider is unreliable, or you want to enforce connecting via IPv4 or IPv6 (server is dual-stack), you can use an IP address instead. 
+In that case, you might need to put the hostname in the hostname field to pass TLS validation.
 
-### Q: What is a hostname and when should I provide it?
+### Q: When should I fill in the hostname field?
 
-In most cases, the hostname is the same as the domain name of the server and you don’t need to provide twice. A hostname is used to verify the identity of the server. If the name in the server’s certificate does not match the hostname, an error occurs and TLS validation fails.
+A hostname is used to verify the identity of the server. If the name in the server’s certificate does not match the hostname, an error occurs and TLS validation fails.
 
-In these situations, you may need to explicitly provide a hostname:
+In most cases, the hostname is the same as the address of the server and you don’t need to provide twice. 
+However, in these situations, you may need to explicitly provide a hostname:
   - You have entered an IP address as the server address.
-  - The server has a hostname different from its domain name.
+  - The server has a hostname (as in its certificate) different from the address you are connecting to.
 
 ## TLS validation
 
@@ -79,16 +80,21 @@ In the default profile, VPN stays on when your device goes to sleep. You can tur
 However, sometimes the phone just refuses to go to sleep and you can confirm it through the connection log (no "Entering sleep mode" shown in the log). 
 This is normal if the phone is charging or something is working in the background (e.g. music is playing). If there is nothing special, try restarting your device.
 
-### Q: Why there are many "entering sleep mode" and "wake up" messages in the log?
+### Q: Why are there many "entering sleep mode" and "wake up" messages in the log?
 
-This is normal. Sleep and wake-up is controlled by system, not by this app. Usually you don't need to care about that.
+This is normal. Sleep and wake-up is controlled by the system, not by the app. Usually you don't need to care about that.
 
-The expected behavior is, if "stay connected during sleep" is on, the app does nothing when phone sleeps, or disconnects the VPN if the option is off.
+The expected behavior is, if "Stay connected during sleep" is on, the app does nothing when phone sleeps, or disconnects the VPN if the option is off.
+
+### Q: I have set "Stay connected during sleep" to on but the connections still get disconnected sometimes. Why is that?
+
+As we mentioned above, sleep and wake-up is controlled by the system, of which the exact mechanism is unknown. 
+If the system considers necessary to shut down network connections, the app has no way to keep connected. Sometimes a reboot helps.
 
 ### Q: What if I have more questions?
 
 Send an email to support@domosekai.com and we will look into it. 
-If it relates to a potential bug, please set log level to "debug" and send the connection log along with your mail.
+If it's a connection issue, please set log level to "debug" and send the connection log along with your mail.
 
 ### Q: Can you help with setting up a server?
 
