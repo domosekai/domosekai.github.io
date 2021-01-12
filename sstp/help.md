@@ -91,6 +91,10 @@ The expected behavior is, if "Stay connected during sleep" is on, the app does n
 As we mentioned above, sleep and wake-up is controlled by the system, of which the exact mechanism is unknown. 
 If the system considers necessary to shut down network connections, the app has no way to keep connected. Sometimes a reboot helps.
 
+### Q: Sometimes the WiFi icon goes off with the VPN icon for several seconds. What's going on?
+
+This is an indication that VPN is reconnecting. You are not losing your WiFi connection. It's just how iOS responds to VPN reconnection events.
+
 ### Q: What if I have more questions?
 
 Send an email to support@domosekai.com and we will look into it. 
