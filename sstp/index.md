@@ -11,6 +11,8 @@ SSTP (or MS-SSTP) is the standard VPN protocol supported by Microsoft since Wind
 SSTP Connect is a VPN client for iOS implementing the SSTP protocol. It connects you to your home and workplace running compatible SSTP servers. 
 It is a third-party implementation based on Microsoft Open Specifications. We do not have any affiliation with Microsoft Corporation.
 
+<a href='https://apps.apple.com/us/app/sstp-connect/id1543667909?itsct=apps_box&itscg=30200'><img alt='Download on the App Store' height="50" hspace="20" src='Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg'/></a>
+
 ## Features
 
   - No ads, no analytics, no 3rd-party SDK. Installed size on iOS 14 is just over 1MB.
