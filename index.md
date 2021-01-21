@@ -13,7 +13,7 @@ Compared with other products, Trip Reader focuses on the display of practical in
 
 目前已在Apple, Google Play, [华为应用市场](https://appstore.huawei.com/app/C101780187)和[小米应用商店](http://app.mi.com/details?id=com.domosekai.cardreader)上架。
 
-无法使用Google Play的Android用户也可[点此](https://www.domosekai.com/download/tripreader-1.6.2-cn.apk)下载安装包（不可用于升级Google Play版），当前版本1.6.2。
+无法使用Google Play的Android用户也可[点此](https://www.domosekai.com/reader/app-china-release.apk)下载安装包（不可用于升级Google Play版），当前版本1.6.3。
 
 <p float="left">
 <a href='https://apps.apple.com/cn/app/%E8%AF%BB%E5%8D%A1%E8%AF%86%E9%80%94-nfc%E8%AF%BB%E5%8D%A1%E5%99%A8/id1488582968?mt=8'><img alt='Download on the App Store' height="50" hspace="20" src='Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg'/></a>
