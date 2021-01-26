@@ -31,4 +31,6 @@ It is a third-party implementation based on Microsoft Open Specifications. We do
 
 [FAQ](help.html)
 
+[よくある質問](help-ja.html)
+
 © 2020 Domosekai Limited.  All rights reserved.
