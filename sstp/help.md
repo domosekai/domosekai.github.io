@@ -6,6 +6,8 @@ description: SSTP VPN Client for iOS
 
 # FAQ
 
+[日本語](help-ja.html)
+
 ## Profile
 
 ### Q: What are the required items in a profile?
