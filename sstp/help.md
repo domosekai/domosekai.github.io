@@ -4,9 +4,9 @@ title: SSTP Connect
 description: SSTP VPN Client for iOS
 ---
 
-# FAQ
+[日本語はこちら](help-ja.html)
 
-[日本語](help-ja.html)
+# FAQ
 
 ## Profile
 
@@ -43,7 +43,8 @@ Generally speaking, you should never disable TLS validation. However, in some ci
 
 ### Q: What requirements should a server certificate meet in order to pass TLS validation?
 
-Rule of thumb: Add https:// to your server address and open in Safari (e.g. https://yourserveraddress). If it reports a 403 or 404 error, you are good to go (it's normal for an SSTP server since it's not a website). 
+Rule of thumb: Add https\:// to your server address and open in Safari (e.g. https\://yourserveraddress). If it reports a 403 or 404 error, you are good to go (it's normal for an SSTP server since it's not a website). 
+
 If you encounter some certificate error, you know that TLS validation has failed.
 
 iOS has implemented more strict rules on server certificates since iOS 13. See below links for more information.
@@ -79,19 +80,19 @@ Nothing. Your profiles are saved locally (in system settings) and passwords are 
 
 In the default profile, VPN stays on when your device goes to sleep. You can turn it off in the profile so that VPN only reconnects when the phone wakes up. This saves battery but reconnection may take some time.
 
-However, sometimes the phone just refuses to go to sleep no matter how you set the option. You can confirm it through the connection log (no "Entering sleep mode" shown in the log). 
+However, sometimes the phone just refuses to go to sleep no matter how you set the option. You can know this from the connection log (no "Entering sleep mode" shown in the log). 
 This is normal if the phone is charging or something is working in the background (e.g. music is playing). If there is nothing special, try restarting your device.
 
 ### Q: Why are there many "entering sleep mode" and "wake up" messages in the log?
 
 This is normal. Sleep and wake-up is controlled by the system, not by the app. Usually you don't need to care about that.
 
-The expected behavior is, if "Stay connected during sleep" is on, the app does nothing when phone sleeps, or disconnects the VPN if the option is off.
+The expected behavior is this, if "Stay connected during sleep" is on, the app does nothing when phone sleeps, or disconnects the VPN if the option is off.
 
 ### Q: I have set "Stay connected during sleep" to on but the connections still get disconnected sometimes. Why is that?
 
 As we mentioned above, sleep and wake-up is controlled by the system, of which the exact mechanism is unknown. 
-If the system considers necessary to shut down network connections, the app has no way to keep connected. Sometimes a reboot helps.
+If the system considers necessary to shut down network connections, the app has no way to keep connected. Sometimes a reboot may help.
 
 ### Q: Sometimes the WiFi icon goes off with the VPN icon for several seconds. What's going on?
 
