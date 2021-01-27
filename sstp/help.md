@@ -103,6 +103,8 @@ This is an indication that VPN is reconnecting. You are not losing your WiFi con
 Send an email to support@domosekai.com and we will look into it. 
 If it's a connection issue, please set log level to "debug" and send the connection log along with your mail.
 
+Also check out our [discussion group](https://groups.google.com/g/sstp-connect).
+
 ### Q: Can you help with setting up a server?
 
 We don't make server-side products, but we can provide general advice to you. 
