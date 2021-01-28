@@ -10,11 +10,6 @@ description: SSTP VPN Client for iOS
 
 ## General
 
-### Q: How can I make sure that this app works for me?
-
-It's simple. If you can connect via Windows SSTP client and use username and password to authenticate, this app should work for you.
-Certificate-based authentication is currently not supported.
-
 ### Q: Can I connect or disconnect via system VPN settings?
 
 Yes, you can. Your VPN profiles are saved in the system. Therefore, you can connect and disconnect the VPN without opening this app.
@@ -22,6 +17,17 @@ Yes, you can. Your VPN profiles are saved in the system. Therefore, you can conn
 ### Q: What information do you collect from the app?
 
 Nothing. Your profiles are saved locally (in system settings) and passwords are stored in keychain. Connection logs are only in the memory and never (even temporarily) saved to the device. We do not send or receive anything in the background.
+
+### Q: Sometimes the WiFi icon goes off with the VPN icon for several seconds. What's going on?
+
+This is an indication that VPN is reconnecting. You are not losing your WiFi connection. It's just how iOS responds to VPN reconnecting events.
+
+### Q: What if I have more questions?
+
+Send an email to support@domosekai.com and we will look into it. 
+If it's a connection issue, please set log level to "debug" and send the connection log along with your mail.
+
+Also check out our [discussion group](https://groups.google.com/g/sstp-connect).
 
 ## Profile
 
@@ -100,17 +106,6 @@ The expected behavior is this, if "Stay connected during sleep" is on, the app d
 
 As we mentioned above, sleep and wake-up is controlled by the system, of which the exact mechanism is unknown. 
 If the system considers necessary to shut down network connections, the app has no way to keep connected. Sometimes a reboot may help.
-
-### Q: Sometimes the WiFi icon goes off with the VPN icon for several seconds. What's going on?
-
-This is an indication that VPN is reconnecting. You are not losing your WiFi connection. It's just how iOS responds to VPN reconnecting events.
-
-### Q: What if I have more questions?
-
-Send an email to support@domosekai.com and we will look into it. 
-If it's a connection issue, please set log level to "debug" and send the connection log along with your mail.
-
-Also check out our [discussion group](https://groups.google.com/g/sstp-connect).
 
 ### Q: Can you help with setting up a server?
 
