@@ -8,6 +8,21 @@ description: SSTP VPN Client for iOS
 
 # FAQ
 
+## General
+
+### Q: How can I make sure that this app works for me?
+
+It's simple. If you can connect via Windows SSTP client and use username and password to authenticate, this app should work for you.
+Certificate-based authentication is currently not supported.
+
+### Q: Can I connect or disconnect via system VPN settings?
+
+Yes, you can. Your VPN profiles are saved in the system. Therefore, you can connect and disconnect the VPN without opening this app.
+
+### Q: What information do you collect from the app?
+
+Nothing. Your profiles are saved locally (in system settings) and passwords are stored in keychain. Connection logs are only in the memory and never (even temporarily) saved to the device. We do not send or receive anything in the background.
+
 ## Profile
 
 ### Q: What are the required items in a profile?
@@ -66,15 +81,7 @@ To install it: https://support.apple.com/en-us/HT209435
 
 To trust it: https://support.apple.com/en-us/HT204477
 
-## General
-
-### Q: Can I connect or disconnect via system VPN settings?
-
-Yes, you can. Your VPN profiles are saved in the system. Therefore, you can connect and disconnect the VPN without opening this app.
-
-### Q: What information do you collect from the app?
-
-Nothing. Your profiles are saved locally (in system settings) and passwords are stored in keychain. Connection logs are only in the memory and never (even temporarily) saved to the device. We do not send or receive anything in the background.
+## Other
 
 ### Q: The app is draining my battery?
 
