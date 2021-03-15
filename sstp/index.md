@@ -29,8 +29,6 @@ This is a third-party implementation based on Microsoft Open Specifications. We 
 
 ## Support
 
-[Discussion group](https://groups.google.com/g/sstp-connect) (for general discussions)
-
 [FAQ](help.html)
 
 [よくある質問](help-ja.html)

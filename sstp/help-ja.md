@@ -27,8 +27,6 @@ description: SSTP VPN Client for iOS
 support@domosekai.comにメールを送ってください。
 接続に問題がある場合は、ログレベルを「デバッグ」に設定し、接続ログをメールと一緒に送信してください。
 
-[Googleグループ](https://groups.google.com/g/sstp-connect)もご利用いただけます。
-
 ## プロファイルについて
 
 ### Q: プロファイルに必要なアイテムは何ですか？
