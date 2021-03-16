@@ -1,7 +1,7 @@
 ---
 layout: default
 title: SSTP Connect
-description: SSTP VPN Client for iOS
+description: SSTP / SoftEther VPN Client for iOS
 ---
 
 [English Version](help.html)
