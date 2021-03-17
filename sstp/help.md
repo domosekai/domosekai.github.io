@@ -22,10 +22,12 @@ Nothing. Your profiles are saved locally (in system settings) and passwords are 
 
 This is an indication that VPN is reconnecting. You are not losing your WiFi connection. It's just how iOS responds to VPN reconnecting events.
 
-### Q: What if I have more questions?
+### Q: I want to make sure traffic is blocked during reconnecting events (called "Seamless Tunnel" by OpenVPN). How can I do it?
 
-Send an email to support@domosekai.com and we will look into it. 
-If it's a connection issue, please set log level to "debug" and send the connection log along with your mail.
+This feature is already enabled and we do not offer a way to disable it.
+
+However, please note that some system traffic does not go through VPN at all. (e.g. push notifications and some DNS requests)
+This is controlled by iOS.
 
 ## Profile
 
@@ -33,24 +35,79 @@ If it's a connection issue, please set log level to "debug" and send the connect
 
 You need to provide at least these information:
   - A description of the connection
-  - Server address (either a hostname or an IP address)
+  - Server address
   - Username and password
+  - Virutal hub name (SoftEther only)
 
 ### Q: What do I need to fill in as server address? An IP or a hostname?
 
 Generally you should use a hostname (e.g. vpn.example.com), so that you don't need to take care of IP changes.
 
 However, if your DNS provider is unreliable, or you want to enforce connecting via IPv4 or IPv6 (server is dual-stack), you can use an IP address instead. 
-In that case, you might need to put the hostname in the hostname field to pass TLS validation.
+In that case, you need to put the hostname in the hostname field to pass TLS validation and for Windows servers to work.
 
-### Q: When should I fill in the hostname field?
+## SSTP
 
-A hostname is used to verify the identity of the server. If the name in the server’s certificate does not match the hostname, an error occurs and TLS validation fails.
+### Q: Do you offer the same connectivity as the Windows SSTP client?
 
-In most cases, the hostname is the same as the address of the server and you don’t need to provide twice. 
-However, in these situations, you may need to explicitly provide a hostname:
-  - You have entered an IP address as the server address.
-  - The server has a hostname (as in its certificate) different from the address you are connecting to.
+In most cases we provide the same connectivity as the official client. However in these situations our app may not work for you.
+  - Connecting over HTTP / SOCKS proxy is required
+  - Authentication method other than password is required
+  - PEAP is required
+
+## SoftEther
+
+### Q: If I can connect using SoftEther Client for Windows, does that mean I can use this app as well?
+
+In most cases we provide the same connectivity as the official client. However in these situations our app may not work for you.
+  - NAT traversal or direct UDP connection is required to connect to the server
+  - Connecting over HTTP / SOCKS proxy is required
+  - Authentication method other than password is required
+
+### Q: What is UDP acceleration and why iOS 13 / server build 9695 is required?
+
+SoftEther by default connects via direct TCP and data packets are transferred over TCP as well. UDP acceleration enables sending and receiving data packets over UDP. 
+Although it's named acceleration, the speed may or may not be better than TCP, depending heavily on your network condition.
+
+SoftEther has historically implemented two versions of UDP acceleration. The original version encrypts data with RC4 cipher, which is considered insecure these days and Apple has also ceased its support since iOS 10. 
+The newer version was introduced in server build 9695 and uses ChaCha20-Poly1305 as cipher. Starting iOS 13, Apple has native support to it. 
+
+### Q: How do I know whether I am using UDP or TCP? Why UDP is not working sometimes?
+
+"UDP" sign will be displayed in the status bar when UDP is used. You can also know it from the connection log. 
+
+UDP acceleration has two working mode:
+  - Direct mode, in which certain ports on the server need to be opened, just as in TCP. This is the most reliable mode.
+  - NAT traversal mode, where no ports are open but the external IPs of the client and the server are obtained from external servers. 
+    Both ends need to be sitting on the public address or behind some specific type of NAT network (called "cone NAT") in order to establish UDP connection. 
+    Many cellular network, for example, uses symmetric NAT in IPv4 which does not allow nat traversal. UDP acceleration will not work in these situations.
+
+IPv6 network does not use NAT and should naturally support UDP acceleration.
+
+### Q: Can I connect to VPN Azure service?
+
+Yes, you can. Make sure that you use the hostname (xx.vpnazure.net) as the server address. It will not work if you enter an IP address.
+
+Also please note that VPN Azure has two modes: 
+  - Relay mode, which is pure TCP and should work in most occasions but might be slower.
+  - Direct mode, where data packets are transferred directly to the real server using UDP acceleration.
+
+iOS version, server build and NAT types need to be satisfying the above requirements for direct mode to work.
+
+### Q: Can I connect to VPN Gate service?
+
+Yes. Use these information when you connnect to VPN Gate servers.
+
+Server: xx.opengw.net (or IP address)
+Hostname: xx.opengw.net (only required if an IP is entered as server)
+Virtual Hub: vpngate
+Username: vpn
+Password: vpn
+
+CAUTION: VPN Gate servers are provided by various contributors around the world. We do not have any affiliation with them or the project, 
+nor do we ensure connectivity or security in any form. 
+
+USE THESE SERVERS AT YOUR OWN RISK!
 
 ## TLS validation
 
@@ -94,18 +151,19 @@ In the default profile, VPN stays on when your device goes to sleep. You can tur
 However, sometimes the phone just refuses to go to sleep no matter how you set the option. You can know this from the connection log (no "Entering sleep mode" shown in the log). 
 This is normal if the phone is charging or something is working in the background (e.g. music is playing). If there is nothing special, try restarting your device.
 
-### Q: Why are there many "entering sleep mode" and "wake up" messages in the log?
-
-This is normal. Sleep and wake-up is controlled by the system, not by the app. Usually you don't need to care about that.
-
-The expected behavior is this, if "Stay connected during sleep" is on, the app does nothing when phone sleeps, or disconnects the VPN if the option is off.
-
 ### Q: I have set "Stay connected during sleep" to on but the connections still get disconnected sometimes. Why is that?
 
 As we mentioned above, sleep and wake-up is controlled by the system, of which the exact mechanism is unknown. 
 If the system considers necessary to shut down network connections, the app has no way to keep connected. Sometimes a reboot may help.
 
+We have also noticed that when both mobile data and WiFi is on, connections over WiFi might not survive during sleep. Try turning off mobile data.
+
 ### Q: Can you help with setting up a server?
 
 We don't make server-side products, but we can provide general advice to you. 
 If special assistance is needed, we will evaluate the situation and (in the case that we can help) may give you a quote.
+
+### Q: What if I have more questions?
+
+Send an email to support@domosekai.com and we will look into it. 
+If it's a connection issue, please set log level to "debug" and send the connection log along with your mail.
