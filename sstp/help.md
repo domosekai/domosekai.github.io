@@ -27,6 +27,7 @@ This is an indication that VPN is reconnecting. You are not losing your WiFi con
 This feature is already enabled and we do not offer a way to disable it.
 
 However, please note that some system traffic does not go through VPN at all. (e.g. push notifications and some DNS requests)
+
 This is controlled by iOS.
 
 ## Profile
@@ -69,7 +70,8 @@ In most cases we provide the same connectivity as the official client. However i
 SoftEther by default connects via direct TCP and data packets are transferred over TCP as well. UDP acceleration enables sending and receiving data packets over UDP. 
 Although it's named acceleration, the speed may or may not be better than TCP, depending heavily on your network condition.
 
-SoftEther has historically implemented two versions of UDP acceleration. The original version encrypts data with RC4 cipher, which is considered insecure these days and Apple has also ceased its support since iOS 10. 
+SoftEther has historically implemented two versions of UDP acceleration. The original version encrypts data with RC4 cipher, which has been proved insecure and Apple has also ceased its support since iOS 10. 
+
 The newer version was introduced in server build 9695 and uses ChaCha20-Poly1305 as cipher. Starting iOS 13, Apple has native support to it. 
 
 ### Q: How do I know whether I am using UDP or TCP? Why UDP is not working sometimes?
@@ -80,9 +82,9 @@ UDP acceleration has two working mode:
   - Direct mode, in which certain ports on the server need to be opened, just as in TCP. This is the most reliable mode.
   - NAT traversal mode, where no ports are open but the external IPs of the client and the server are obtained from external servers. 
     Both ends need to be sitting on the public address or behind some specific type of NAT network (called "cone NAT") in order to establish UDP connection. 
-    Many cellular network, for example, uses symmetric NAT in IPv4 which does not allow nat traversal. UDP acceleration will not work in these situations.
+    Many cellular network, for example, uses symmetric NAT in IPv4 which does not allow NAT traversal. UDP acceleration will not work in these situations.
 
-IPv6 network does not use NAT and should naturally support UDP acceleration.
+IPv6 network does not use NAT and should be naturally supporting UDP acceleration.
 
 ### Q: Can I connect to VPN Azure service?
 
@@ -97,12 +99,11 @@ iOS version, server build and NAT types need to be satisfying the above requirem
 ### Q: Can I connect to VPN Gate service?
 
 Yes. Use these information when you connnect to VPN Gate servers.
-
-Server: xx.opengw.net (or IP address)
-Hostname: xx.opengw.net (only required if an IP is entered as server)
-Virtual Hub: vpngate
-Username: vpn
-Password: vpn
+  - Server: xx.opengw.net (or IP address)
+  - Hostname: xx.opengw.net (only required if an IP is entered as server)
+  - Virtual Hub: vpngate
+  - Username: vpn
+  - Password: vpn
 
 CAUTION: VPN Gate servers are provided by various contributors around the world. We do not have any affiliation with them or the project, 
 nor do we ensure connectivity or security in any form. 
