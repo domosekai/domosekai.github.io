@@ -51,7 +51,7 @@ In that case, you need to put the hostname in the hostname field to pass TLS val
 
 ### Q: Do you offer the same connectivity as the Windows SSTP client?
 
-In most cases we provide the same connectivity as the official client. However in these situations our app may not work for you.
+In most cases we provide the same connectivity as the official client. However in these situations our app does not work for you.
   - Connecting over HTTP / SOCKS proxy is required
   - Authentication method other than password is required
   - PEAP is required
@@ -60,7 +60,7 @@ In most cases we provide the same connectivity as the official client. However i
 
 ### Q: If I can connect using SoftEther Client for Windows, does that mean I can use this app as well?
 
-In most cases we provide the same connectivity as the official client. However in these situations our app may not work for you.
+In most cases we provide the same connectivity as the official client. However in these situations our app does not work for you.
   - NAT traversal or direct UDP connection is required to connect to the server
   - Connecting over HTTP / SOCKS proxy is required
   - Authentication method other than password is required
