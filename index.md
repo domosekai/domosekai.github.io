@@ -9,9 +9,9 @@ title: Welcome to Domosekai
 
 <a href='reader/index.html'><img align="left" width="76" height="76" src="reader-icon.png"/></a>
 
-  #1 NFC reader for public transit cards in China
+&nbsp;&nbsp;&nbsp;&nbsp;#1 NFC reader for public transit cards in China
 
-  Available on Android and iOS
+&nbsp;&nbsp;&nbsp;&nbsp;Available on Android and iOS
 
 ---
 
@@ -19,14 +19,14 @@ title: Welcome to Domosekai
 
 <a href='sstp/index.html'><img align="left" width="76" height="76" src="sstp-icon.png"/></a>
 
-  #1 SSTP / SoftEther VPN client on iOS
+&nbsp;&nbsp;&nbsp;&nbsp;#1 SSTP / SoftEther VPN client on iOS
   
-  iOS native solution
+&nbsp;&nbsp;&nbsp;&nbsp;First iOS native solution
 
 ---
 
 ## About Us
 
-Based in Hong Kong, we aim to provide new possibilities to you, in the simplest way.
+Based in Hong Kong, we aim to bring new possibilities to you, in their simplest way.
 
 © 2021 Domosekai Limited.  All rights reserved.
