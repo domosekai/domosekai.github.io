@@ -30,6 +30,11 @@ However, please note that some system traffic does not go through VPN at all. (e
 
 This is controlled by iOS.
 
+### Q: Sometimes automatically switch does not happen when WiFi becomes available. Why is that?
+
+The app relies on the system to notify it when alternative network path is available. It generally works but if the current connection is made over IPv6 and the new network (WiFI) does not support IPv6, there is chance that the notification will not arrive. 
+You can learn from the connection log if a switch has occured. A manual reconnection may be necessary if the answer is no.
+
 ## Profile
 
 ### Q: What are the required items in a profile?
@@ -65,7 +70,7 @@ In most cases we provide the same connectivity as the official client. However i
   - Connecting over HTTP / SOCKS proxy is required
   - Authentication method other than password is required
 
-### Q: What is UDP acceleration and why iOS 13 / server build 9695 is required?
+### Q: What is UDP acceleration and why is iOS 13 / server build 9695 required?
 
 SoftEther by default connects via direct TCP and data packets are transferred over TCP as well. UDP acceleration enables sending and receiving data packets over UDP. 
 Although it's named acceleration, the speed may or may not be better than TCP, depending heavily on your network condition.
@@ -74,7 +79,7 @@ SoftEther has historically implemented two versions of UDP acceleration. The ori
 
 The newer version was introduced in server build 9695 and uses ChaCha20-Poly1305 as cipher. Starting iOS 13, Apple has native support to it. 
 
-### Q: How do I know whether I am using UDP or TCP? Why UDP is not working sometimes?
+### Q: How do I know whether I am using UDP or TCP? Why is UDP not working sometimes?
 
 "UDP" sign will be displayed in the status bar when UDP is used. You can also know it from the connection log. 
 
@@ -85,6 +90,16 @@ UDP acceleration has two working mode:
     Many cellular network, for example, uses symmetric NAT in IPv4 which does not allow NAT traversal. UDP acceleration will not work in these situations.
 
 IPv6 network does not use NAT and should be naturally supporting UDP acceleration.
+
+### Q: After I switched the network, UDP acceleration seemd not working and why is that?
+
+This is normal if the UDP acceleration works in NAT traversal mode, because according to the current SoftEther protocol there is no way to renegotiate a new endpoint for an existing session. 
+Therefore the server has no way to know your new address and cannot reach the device after the network switch.
+Once you switch back to the original network (provided that your IP address has not changed), the UDP will be very likely working again.
+
+You have two options to mitigate this problem:
+  - Open the relevant UDP ports just like you have done for TCP, or
+  - Manually reconnect in the new network.
 
 ### Q: Can I connect to VPN Azure service?
 
