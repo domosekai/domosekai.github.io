@@ -119,6 +119,7 @@ IPv6ネットワークではNATを使用していないため、UDP高速化も�
 はい。 VPN Gateサーバーに接続するには、以下のように使用してください。
   - サーバ：xx.opengw.net（またはIPアドレス）
   - ホスト名：xx.opengw.net（サーバとしてIPを入力している場合のみ）
+  - ポート：TCPポート番号（UDPは非対応）
   - 仮想HUB名：vpngate
   - ユーザ名：vpn
   - パスワード：vpn

@@ -118,6 +118,7 @@ iOS version, server build and NAT types need to be satisfying the above requirem
 Yes. Use these information when you connnect to VPN Gate servers.
   - Server: xx.opengw.net (or IP address)
   - Hostname: xx.opengw.net (only required if an IP is entered as server)
+  - Port: TCP port number (UDP is not supported)
   - Virtual Hub: vpngate
   - Username: vpn
   - Password: vpn
