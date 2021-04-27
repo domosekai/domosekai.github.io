@@ -16,7 +16,7 @@ Compared with other products, Trip Reader focuses on the display of practical in
 <a href='https://play.google.com/store/apps/details?id=com.domosekai.cardreader'><img alt='Get it on Google Play' height="50" src='google-play-badge.png'/></a>
 </p>
 
-中国Android用户也可从[小米应用商店](http://app.mi.com/details?id=com.domosekai.cardreader)或[点此](https://www.domosekai.com/reader/app-china-release.apk)下载安装包（不可用于升级Google Play版），当前版本1.6.5。
+中国Android用户也可从[小米应用商店](http://app.mi.com/details?id=com.domosekai.cardreader)或[点此](https://www.domosekai.com/reader/app-china-release.apk)下载安装包（不可用于升级Google Play版），当前版本1.6.6。
 
 [FAQ (Chinese Only)](faq.html)
 
@@ -34,6 +34,6 @@ https://github.com/domosekai/tripreader-data
 
 **This app has been made better ❤ by contributions from (list not complete):**
 
-Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, 虹羽, 龙腾四海, 马丁, 千葉, 晴转の多云, 随便, 笑脸, 快乐的棒棒唐, 眼泪, 羊局驼段, 恒沐, 雨鸽, 黑森林里会迷路, 走马行酒醴, 同宇工作室, 夜空守望者, 北陽, BH2SEB, 机智轩の微視角, 兰Love新一, HXD3CA7501, 龙牙, 暖暖小柿子, 艾拉, 化身大禹治水的染色体, 杨诚, 城市通卡, WarmMarine, ycn, Robert Lyu, Guy Zhang, 无聊, 魔王, Neptune, 細貓Lil Cat, 黄柏之, line17, 小鱼吐泡泡, 吃貨一枚, 冰糖炖雪梨咕咕咕, 老赵, 南惊西露, lsr, 上局鄞段, 小东，六里桥北里, Summer, 佳洁士, Ay
+Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, 虹羽, 龙腾四海, 马丁, 千葉, 晴转の多云, 随便, 笑脸, 快乐的棒棒唐, 眼泪, 羊局驼段, 恒沐, 雨鸽, 黑森林里会迷路, 走马行酒醴, 同宇工作室, 夜空守望者, 北陽, BH2SEB, 机智轩の微視角, 兰Love新一, HXD3CA7501, 龙牙, 暖暖小柿子, 艾拉, 化身大禹治水的染色体, 杨诚, 城市通卡, WarmMarine, ycn, Robert Lyu, Guy Zhang, 无聊, 魔王, Neptune, 細貓Lil Cat, 黄柏之, line17, 小鱼吐泡泡, 吃貨一枚, 冰糖炖雪梨咕咕咕, 老赵, 南惊西露, lsr, 上局鄞段, 小东, 六里桥北里, Summer, 佳洁士, Ay
 
 © 2020 Domosekai Limited.  All rights reserved.
