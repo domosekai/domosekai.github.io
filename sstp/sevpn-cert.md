@@ -8,23 +8,23 @@ description: SSTP / SoftEther VPN Client for iOS
 
 ### Note
 
-*We recommend using certificates signed by public CAs which ensures maximum level of security. You can get them from free service like Let's Encrypt.*
+*We recommend using certificates signed by public CAs which ensures maximum level of security. You can get them from free services such as Let's Encrypt.*
 
-*Only use self-generated certificates if the above option does not work for you. In that case, please follow this guide to regenerate certificates as certificates generated automatically by SoftEther Server does not meet iOS 13 requirements.*
+*Only use self-generated certificates if public CA certificates do not work for you. In that case, please follow this guide to regenerate certificates as certificates generated automatically by SoftEther Server does not meet iOS 13 requirements.*
 
-**TLS Server Trust Evaluation is an advanced topic for server administrators. You must be responsible for any changes you made and their consequences.**
+**TLS Server Trust Evaluation is an advanced topic designed for server administrators. You must be responsible for any changes you made and their consequences.**
 
 **PROCEED AT YOUR OWN RISK!**
 
 ### Overview
 
-You will be generating two certificates in this guide. The first is called root certificate which is then used to generate the second certificate (leaf certificate), used directly by the VPN server.
+You will be generating two certificates according to this guide. The first one is called root certificate which is then used to generate the second one (called leaf certificate), used directly by the VPN server.
 
 ### Prerequisites
 
 - SoftEther VPN Server v4.25 Build 9656 and later (older versions can not generate iOS-compatible certificates)
 
-- Access to VPN server via SE-VPN Server Manager (GUI) or vpncmd (command line)
+- Access to VPN server admin mode via SE-VPN Server Manager (GUI) or vpncmd (command line)
 
 ### Using SE-VPN Server Manager (GUI)
 
@@ -40,7 +40,11 @@ You will be generating two certificates in this guide. The first is called root 
     - Expires in: 3650 days (default) or other value you want
     - Strenthness: 2048 bits
 
-1. Click *OK*
+    ![root-ca](https://user-images.githubusercontent.com/54519668/116781285-81982880-aab4-11eb-825d-a8038fa9eedd.JPG)
+
+1. Click *OK*. The new root certificate is shown under *Server Certificate*.
+
+    ![root-ca-overview](https://user-images.githubusercontent.com/54519668/116781287-8361ec00-aab4-11eb-9130-f9574d437dc2.JPG)
 
 1. Choose *Export* to export as X509 certificate and private key. **Save the key to a safe place and never disclose to others.**
 
@@ -56,9 +60,13 @@ You will be generating two certificates in this guide. The first is called root 
     - Expires in: 730 days (or any value less than 825 days)
     - Strenghness: 2048 bits
 
+    ![server-cert](https://user-images.githubusercontent.com/54519668/116781290-852baf80-aab4-11eb-9011-a7569b057627.JPG)
+
 1. Click *OK* to close *Create New Certificate*.
 
 1. The new certificate is now shown under *Server Certificate*. It does not need to be exported.
+
+    ![server-cert-overview](https://user-images.githubusercontent.com/54519668/116781291-865cdc80-aab4-11eb-9352-0d6738009289.JPG)
 
 1. Click *OK* to close *Encryption and Network Settings*. VPN manager will prompts you that you need to install the root certificate manually if you need OpenVPN connectivity.
 
