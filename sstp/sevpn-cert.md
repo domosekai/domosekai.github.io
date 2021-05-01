@@ -6,8 +6,6 @@ description: SSTP / SoftEther VPN Client for iOS
 
 ## Generate iOS-compatible SoftEther server certificates
 
-### Note
-
 *We recommend using certificates signed by public CAs which ensures maximum level of security. You can get them from free services such as Let's Encrypt.*
 
 *Only use self-generated certificates if public CA certificates do not work for you. In that case, please follow this guide to regenerate certificates as certificates generated automatically by SoftEther Server do not meet iOS 13 requirements.*
@@ -22,7 +20,7 @@ You will be generating two certificates according to this guide. The first one i
 
 ### Prerequisites
 
-- SoftEther VPN Server v4.25 Build 9656 and later (older versions can not generate iOS-compatible certificates)
+- SoftEther VPN Server 4.25 Build 9656 and later (older versions can not generate iOS-compatible certificates)
 
 - Access to VPN server admin mode via SE-VPN Server Manager (GUI) or vpncmd (command line)
 
@@ -78,7 +76,7 @@ You will be generating two certificates according to this guide. The first one i
 
     To trust: https://support.apple.com/en-us/HT204477
 
-1. Repeat the above procedures to generate a new server certificate when the current one expires (in 730 days for example).
+1. Repeat the above process to generate a new server certificate when the current one expires (in 730 days for example). Root certificate can be reused as long as it's not expired.
 
 ### Using vpncmd (command line)
 
@@ -165,4 +163,4 @@ You will be generating two certificates according to this guide. The first one i
 
     To trust: https://support.apple.com/en-us/HT204477
 
-1. Repeat the above procedures to generate a new server certificate when the current one expires (in 730 days for example).
+1. Repeat the above process to generate a new server certificate when the current one expires (in 730 days for example). Root certificate can be reused as long as it's not expired.
