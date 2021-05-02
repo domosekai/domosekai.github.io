@@ -40,11 +40,11 @@ description: SSTP / SoftEther VPN Client for iOS
     - 有効期間：3650日（デフォルト）または任意の値
     - 暗号強度：2048 bits
 
-    ![root-ca](https://user-images.githubusercontent.com/54519668/116781285-81982880-aab4-11eb-825d-a8038fa9eedd.JPG)
+    ![root-ca-ja](https://user-images.githubusercontent.com/54519668/116809493-de591900-ab70-11eb-9c51-44057b03ea71.JPG)
 
 1. 「OK」をクリックします。作成した証明書がサーバー証明書の欄に表示されます。
 
-    ![root-ca-overview](https://user-images.githubusercontent.com/54519668/116781287-8361ec00-aab4-11eb-9130-f9574d437dc2.JPG)
+    ![root-ca-overview-ja](https://user-images.githubusercontent.com/54519668/116809494-df8a4600-ab70-11eb-9dc4-012d481d97e6.JPG)
 
 1. 「エクスポート」をクリックし、X509証明書と秘密鍵ファイルをエクスポートします。
 
@@ -61,14 +61,14 @@ description: SSTP / SoftEther VPN Client for iOS
     - 名前：サーバーホスト名（例えばSoftEther DDNSホスト名）
     - 有効期間：730日（825日以下の日数であればよい）
     - 暗号強度：2048 bits
-
-    ![server-cert](https://user-images.githubusercontent.com/54519668/116781290-852baf80-aab4-11eb-9011-a7569b057627.JPG)
+    
+    ![server-cert-ja](https://user-images.githubusercontent.com/54519668/116809481-cda8a300-ab70-11eb-8230-ccb9af2d403d.JPG)
 
 1. 「OK」をクリックし、「新しい証明書の作成」を閉じます
 
 1. 新しいサーバー証明書がサーバー証明書の欄に表示されます。それをエクスポートする必要はありません。
 
-    ![server-cert-overview](https://user-images.githubusercontent.com/54519668/116781291-865cdc80-aab4-11eb-9352-0d6738009289.JPG)
+    ![server-cert-overview-ja](https://user-images.githubusercontent.com/54519668/116809487-d6997480-ab70-11eb-81af-a498f93bb20f.JPG)
 
 1. 「OK」をクリックし、「暗号化と通信関係の設定」を閉じます。VPN管理マネージャがOpenVPN接続を行う場合ルート証明書をインストールする必要があるということを提示します。
 
