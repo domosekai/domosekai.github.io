@@ -4,11 +4,13 @@ title: SSTP Connect
 description: SSTP / SoftEther VPN Client for iOS
 ---
 
+[日本語版はこちら](sevpn-cert-ja.html)
+
 ## Generate iOS-compatible SoftEther server certificates
 
 *We recommend using certificates signed by public CAs which ensures maximum level of security. You can get them from free services such as Let's Encrypt.*
 
-*Only use self-generated certificates if public CA certificates do not work for you. In that case, please follow this guide to regenerate certificates as certificates generated automatically by SoftEther Server do not meet iOS 13 requirements.*
+*Only use self-generated certificates if public CA certificates do not work for you. In that case, please follow this guide to regenerate certificates as certificates generated automatically by SoftEther VPN Server do not meet iOS 13 requirements.*
 
 **TLS Server Trust Evaluation is an advanced topic for server administrators. You must be responsible for any changes you made and their consequences.**
 
@@ -44,7 +46,9 @@ You will be generating two certificates according to this guide. The first one i
 
     ![root-ca-overview](https://user-images.githubusercontent.com/54519668/116781287-8361ec00-aab4-11eb-9130-f9574d437dc2.JPG)
 
-1. Choose *Export* to export as X509 certificate and private key. **Save the key to a safe place and never disclose to others.**
+1. Choose *Export* to export as X509 certificate and private key. 
+
+    **Save the key to a safe place and never disclose to others.**
 
 1. Now generate the server (leaf) certificate. Click *New*.
 
@@ -82,10 +86,12 @@ You will be generating two certificates according to this guide. The first one i
 
 1. Log into server admin mode
 
-1. Run `makecert2048`, fill in root certificate information. Specify filenames to export the root certificate and private key. 
+1. Run `makecert2048`, fill in root certificate information. 
 
     - Name of Certificate (CN): Any name EXCEPT your server hostname
     - Expiration: 3650 days (default) or other value you want
+
+    Specify filenames to export the root certificate and private key. 
 
     **Save the key to a safe place and never disclose to others.**
 
@@ -123,12 +129,13 @@ You will be generating two certificates according to this guide. The first one i
     - Expiration: 730 days (or any value less than 825 days)
 
     Specify filenames to export the server certificate and private key.
+
     **Save the key to a safe place and never disclose to others.**
 
     Sample:
 
     ```
-    VPN Server>makecert2048 /SIGNCERT:/root/debian.cer /SIGNKEY:/root/debian.key
+    VPN Server>makecert2048 /signcert:/root/debian.cer /signkey:/root/debian.key
     MakeCert2048 command - Create New X.509 Certificate and Private Key (2048 bit)
     Name of Certificate to Create (CN): vpn123456789.softether.net
 
@@ -154,6 +161,18 @@ You will be generating two certificates according to this guide. The first one i
     ```
 
 1. Run `servercertset`, provide path to the server certificate and private key. Do not provide path to the root certificate.
+
+    Sample:
+
+    ```
+    VPN Server>servercertset
+    ServerCertSet command - Set SSL Certificate and Private Key of VPN Server
+    Read X.509 certificate from file name: /root/server.cer
+
+    Read private key from file name: /root/server.key
+
+    The command completed successfully.
+    ```
 
 1. (Optional) Copy the root certificate you exported (not the private key) to `chain_certs` sub-folder on the server and regenerate OpenVPN configuration. You don't need to do this if OpenVPN connectivity is not needed.
 
