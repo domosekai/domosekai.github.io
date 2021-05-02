@@ -123,7 +123,7 @@ description: SSTP / SoftEther VPN Client for iOS
     コマンドは正常に終了しました。
     ```
 
-1. `makecert2048 /SIGNCERT:<Path to root certificate> /SIGNKEY:<Path to private key>`を実行し、ルート証明書情報を入力します
+1. `makecert2048 /SIGNCERT:<ルート証明書ファイル> /SIGNKEY:<秘密鍵ファイル>`を実行し、ルート証明書情報を入力します
 
     - 名前 (CN)：サーバーホスト名（例えばSoftEther DDNSホスト名）
     - 有効期限 (日)：730日（825日以下の日数であればよい）
@@ -160,7 +160,7 @@ description: SSTP / SoftEther VPN Client for iOS
     コマンドは正常に終了しました。
     ```
 
-1. `servercertset`を実行し、サーバー証明書と秘密鍵のファイルネームを入力します。
+1. `servercertset`を実行し、サーバー証明書と秘密鍵のファイルネームを入力します。ルート証明書ファイルを使用しないでください。
 
     サンプル：
 
