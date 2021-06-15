@@ -9,6 +9,7 @@ description: SSTP / SoftEther VPN Client for iOS
 SSTP Connect is a VPN client that supports two HTTPS-based protocols, SSTP and SoftEther VPN.
 
 SSTP (MS-SSTP) is developed by Microsoft and supported on Windows Server 2008 and later. It encapsulates IP traffic (layer 3) over HTTPS.
+
 SoftEther VPN is developed by Daiyuu Nobori and SoftEther Corporation. It encapsulates Ethernet frames (layer 2) over HTTPS.
 
 This is a third-party implementation based on Microsoft Open Specifications and SoftEther VPN source code. 
@@ -40,11 +41,11 @@ We do not have any affiliation with either Microsoft Corporation or SoftEther Co
   
 - **IPv6**
 
-  Supports IPv6 network and tunnel (stateless only)
+  Supports IPv6 network and tunnel (stateless only, DHCPv6 not supported)
   
 - **Versatility**
 
-  Supports SoftEther UDP acceleration (for iOS 13+ and SoftEther Server 4.30+)
+  Supports SoftEther UDP acceleration (requires iOS 13+ and SoftEther Server 4.30+)
 
 ## Server Platforms
 
