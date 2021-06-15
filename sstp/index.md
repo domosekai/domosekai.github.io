@@ -18,20 +18,41 @@ We do not have any affiliation with either Microsoft Corporation or SoftEther Co
 
 ## Features
 
-  - No ads, no analytics or any 3rd-party SDK. Installed size on iOS 14 is less than 2MB.
-  - No data is collected from you. Moreover, your connection log is only in the memory and never saved to the device.
-  - Pure Swift implementation.
-  - Native iOS TLS stack ensuring stability and security.
+- **Lightweight**
 
-## Specifications
+  No ads, analytics or any 3rd-party SDK
+  
+- **Privacy**
 
-  - Transport layer: HTTPS (TCP) over IPv4 or IPv6
-  - Simultaneous TCP connections: 1–32 (SoftEther only)
-  - UDP acceleration: Requires at least iOS 13 and server build 9695 (SoftEther only)
-  - Authentication (SSTP): Password (EAP-MSCHAPv2, MS-CHAPv2, CHAP and PAP)
-  - Authentication (SoftEther): Password (including RADIUS / NT Domain)
-  - Tunnel IP and DNS: Automatic (IPv4 and stateless IPv6) or static
-  - Server platform: Microsoft Windows Server, SoftEther VPN (VPN Gate), MikroTik RouterOS etc.
+  No data is collected from you. Log only exists in the memory and is never saved to the device.
+  
+  Passwords and certificates are saved in the keychain, protected by iOS.
+  
+- **Native**
+
+  Standard iOS TLS stack ensuring stability and security
+  
+- **Security**
+
+  Authentication with password or certificate
+  
+  Certificate-based authentication requires iOS 12+ and certificates packed in PKCS #12 format (.p12, .pfx).
+  
+- **IPv6**
+
+  Supports IPv6 network and tunnel (stateless only)
+  
+- **Versatility**
+
+  Supports SoftEther UDP acceleration (for iOS 13+ and SoftEther Server 4.30+)
+
+## Server Platforms
+
+- Microsoft Windows Server
+- Microsoft Azure P2S VPN
+- MikroTik RouterOS
+- SoftEther VPN Server
+- VPN Azure
 
 ## Support
 
