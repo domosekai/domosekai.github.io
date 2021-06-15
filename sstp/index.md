@@ -23,6 +23,8 @@ We do not have any affiliation with either Microsoft Corporation or SoftEther Co
 
   No ads, analytics or any 3rd-party SDK
   
+  Since version 3.0, SSTP Connect uses [SwiftNIO](https://github.com/apple/swift-nio), an Apple project released under Apache License 2.0.
+  
 - **Privacy**
 
   No data is collected from you. Log only exists in the memory and is never saved to the device.
