@@ -12,7 +12,7 @@ description: SSTP / SoftEther VPN Client for iOS
 
 ### Q: How to start?
 
-To use SSTP Connect, you need to create a profile first. A profile specfies the server and account you will be connecting to.
+To use SSTP Connect, you need to create a profile first.
 
 These items are needed for a profile:
   - A description of the connection
@@ -66,7 +66,7 @@ These items are needed for a profile:
 
   Enter the Virtual Hub name.
   
-  The default hub names are `default` and `vpn`. If you are using VPN Gate service, the hub name is `vpngate`.
+  The common default hub names are `default` and `vpn`. If you are using VPN Gate service, the hub name is `vpngate`.
   
 - **Connections**
 
@@ -96,7 +96,7 @@ These items are needed for a profile:
 
   Fill in the account name of the VPN.
 
-  For SSTP users with certificate-based authentication, username can be omitted if it matches the certificate.
+  For SSTP users with certificate-based authentication, username can be omitted if it matches the certificate's Common Name.
 
   For SoftEther users connecting with SSTP protocol, the Virtual Hub name should be appended to the account in the form `user@HUB`, unless the default Virtual Hub is being used.
   
@@ -112,7 +112,7 @@ These items are needed for a profile:
 
   Import and select the certificate you want to use. Certificates (including private keys) are saved in the keychain, protected by iOS.
   
-  See below for how to import certificates.
+  See below for how to import certificates. Currently only RSA certificates are accepted.
   
 - **Enable EAP-MSCHAPv2**
 
@@ -124,7 +124,7 @@ These items are needed for a profile:
 
   *SSTP only*
 
-  Enable if the server only supports these obsolete authentication methods. Only enable when necessary.
+  Enable if the server only supports these obsolete authentication methods.
   
 - **Tunnel IP Version**
 
@@ -231,7 +231,7 @@ Only use it as the last resort and always consult your administrator first.
 
 ### Q: How to import my certificates?
 
-The first step of using certificate-based authentication is importing your certificates. Currently the app only accepts certificates in PKCS #12 format (.p12 or .pfx files). 
+The first step of using certificate-based authentication is importing your certificates. Currently the app only accepts RSA certificates packed in PKCS #12 format (.p12 or .pfx files). 
 According to iOS policy, the P12 file must be password-protected.
 
 PKCS #12 is the default format on Windows platform and also supported by SoftEther VPN Server.
