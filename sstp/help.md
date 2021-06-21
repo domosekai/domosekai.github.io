@@ -96,7 +96,7 @@ These items are needed for a profile:
 
   Fill in the account name of the VPN.
 
-  For SSTP users with certificate-based authentication, username can be omitted if it matches the certificate's Common Name.
+  For SSTP users with certificate-based authentication, username can be omitted if it matches the certificate's User Principal Name (UPN).
 
   For SoftEther users connecting with SSTP protocol, the Virtual Hub name should be appended to the account in the form `user@HUB`, unless the default Virtual Hub is being used.
   
