@@ -23,8 +23,6 @@ We do not have any affiliation with either Microsoft Corporation or SoftEther Co
 
   No ads, analytics or any 3rd-party SDK
   
-  Since version 3.0, SSTP Connect uses [SwiftNIO](https://github.com/apple/swift-nio), an Apple project released under Apache License 2.0.
-  
 - **Privacy**
 
   No data is collected from you. Log only exists in the memory and is never saved to the device.
@@ -53,9 +51,11 @@ We do not have any affiliation with either Microsoft Corporation or SoftEther Co
 
 - Microsoft Windows Server
 - Microsoft Azure P2S VPN
-- MikroTik RouterOS
+- MikroTik RouterOS*
 - SoftEther VPN Server
 - VPN Azure
+
+\* Servers configured without certificates are not supported.
 
 ## Support
 
@@ -65,4 +65,8 @@ We do not have any affiliation with either Microsoft Corporation or SoftEther Co
 
 [Privacy Policy](privacy.html)
 
-© 2020 Domosekai Limited.  All rights reserved.
+## Legal
+
+Since version 3.0, SSTP Connect uses [SwiftNIO](https://github.com/apple/swift-nio), an Apple project released under Apache License 2.0.
+  
+© 2020–2021 Domosekai Limited.  All rights reserved.
