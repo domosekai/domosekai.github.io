@@ -114,7 +114,7 @@ description: NFC Public Transit Card Reader in China
 
 ### 浙江省
 
-- 杭州地铁和公交：不写1E文件，无法识别交易地和交易类型
+- 杭州地铁和部分公交：不写1E文件，无法识别交易地和交易类型
    
 - 湖州公交：亿达卡机错写为襄阳
       
@@ -142,7 +142,7 @@ description: NFC Public Transit Card Reader in China
    
 ### 重庆市
 
-- 轨道：卡机进站时重复写入1E文件，导致重复显示
+- 轨道：卡机进站时重复写入1E文件
 
 - 公交：雄帝卡机在交易地代码写0000，无法识别城市
    
