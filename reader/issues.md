@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Trip Reader
-description: NFC Public Transit Card Reader in China
+description: NFC Reader for Public Transit Cards in China
 ---
 
 ## 各地问题汇总
@@ -56,7 +56,7 @@ description: NFC Public Transit Card Reader in China
 
 - 济南地铁：不写1E文件，无法识别交易地和交易类型
    
-- 济南公交：小兵卡机不写1E文件，无法识别交易地和交易类型
+- 济南公交：小兵卡机不写1E文件，无法识别交易地和交易类型，长运德卡卡机将收单机构写发卡机构
    
 - 枣庄、菏泽、滨州公交：恒宇卡机将交易地写上次交易地
    
