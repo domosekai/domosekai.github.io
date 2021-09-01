@@ -41,15 +41,19 @@ We do not have any affiliation with either Microsoft Corporation or SoftEther Co
   
 - **IPv6**
 
-  Supports IPv6 network and tunnel (stateless only, DHCPv6 not supported)
+  Support IPv6 network and tunnel (stateless only, DHCPv6 not supported)
   
-- **Versatility**
+- **UDP**
 
-  Supports SoftEther UDP acceleration (requires iOS 13+ and SoftEther Server 4.30+)
+  Support SoftEther UDP acceleration (requires iOS 13+ and SoftEther Server 4.30+)
+
+- **Import**
+
+  Support SoftEther VPN Client Manager connection setting files (.vpn)
 
 ## Server Platforms
 
-- Microsoft Windows Server
+- Microsoft Windows Server RRAS
 - Microsoft Azure P2S VPN
 - MikroTik RouterOS*
 - SoftEther VPN Server
