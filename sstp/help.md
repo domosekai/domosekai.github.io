@@ -20,6 +20,10 @@ These items are needed for a profile:
   - Username and password (or certificate)
   - Virtual Hub name (SoftEther only)
 
+If you have an existing connection setting file (.vpn) from SoftEther VPN Client Manager, you can import it as a new profile by:
+  - clicking + and choose *Import From File*, or
+  - opening / sharing the file to the app.
+
 ### Q: What are the items in a profile and what do they mean?
 
 - **Protocol**
