@@ -116,7 +116,7 @@ If you have an existing connection setting file (.vpn) from SoftEther VPN Client
 
   Import and select the certificate you want to use. Certificates (including private keys) are saved in the keychain, protected by iOS.
   
-  See below for how to import certificates. Currently only RSA certificates are accepted.
+  See below for how to import certificates. SoftEther protocol accepts RSA certificates only.
   
 - **Enable EAP-MSCHAPv2**
 
@@ -169,6 +169,10 @@ If you have an existing connection setting file (.vpn) from SoftEther VPN Client
 - **Retry Times**
 
   Number of times to retry if the connection fails.
+  
+- **Temporary IPv6 Address**
+
+  Use temporary IPv6 addresses every time connected if allowed by the server. If disabled, the same IPv6 address will be used for a profile.
   
 - **Switch to Wi-Fi When Available**
 
@@ -235,7 +239,7 @@ Only use it as the last resort and always consult your administrator first.
 
 ### Q: How to import my certificates?
 
-The first step of using certificate-based authentication is importing your certificates. Currently the app only accepts RSA certificates packed in PKCS #12 format (.p12 or .pfx files). 
+The first step of using certificate-based authentication is importing your certificates. Currently the app only accepts certificates packed in PKCS #12 format (.p12 or .pfx files). 
 According to iOS policy, the P12 file must be password-protected.
 
 PKCS #12 is the default format on Windows platform and also supported by SoftEther VPN Server.
