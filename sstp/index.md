@@ -21,7 +21,7 @@ We do not have any affiliation with either Microsoft Corporation or SoftEther Co
 
 - **Lightweight**
 
-  No ads, analytics or any 3rd-party SDK
+  No ads, analytics or other 3rd-party SDK
   
 - **Privacy**
 
@@ -37,11 +37,11 @@ We do not have any affiliation with either Microsoft Corporation or SoftEther Co
 
   Authentication with password or certificate
   
-  Certificate-based authentication requires iOS 12+ and certificates packed in PKCS #12 format (.p12, .pfx).
+  Certificates packed in PKCS #12 format (.p12, .pfx) are required. SSTP requires iOS 12+.
   
 - **IPv6**
 
-  Support IPv6 network and tunnel (stateless only, DHCPv6 not supported)
+  Support IPv6 network and tunnel (stateless tunnel only, DHCPv6 not supported)
   
 - **UDP**
 
