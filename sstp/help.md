@@ -46,6 +46,8 @@ If you have an existing connection setting file (.vpn) from SoftEther VPN Client
 
   However, if your DNS provider is unreliable, or you want to enforce connecting via IPv4 or IPv6 (if the server is dual-stack), you can use an IP address instead. 
 
+  System proxy will automatically be used in iOS 12 and above.
+  
 - **Hostname**
 
   Server hostname that will be used in the TLS server trust evaluation.
@@ -349,8 +351,7 @@ Domain Being Evaluated: companyinternal.com (this will match *.companyinternal.c
 ### Q: Do you offer the same connectivity as the Windows built-in SSTP client?
 
 In most cases we provide the same connectivity as the official client. However in these situations our app does not work for you.
-  - Connecting over HTTP / SOCKS proxy is required
-  - PEAP is required
+  - PEAP authentication is required
 
 ## SoftEther Questions
 
@@ -358,7 +359,6 @@ In most cases we provide the same connectivity as the official client. However i
 
 In most cases we provide the same connectivity as the official client. However in these situations our app does not work for you.
   - NAT traversal or direct UDP connection is required to connect to the server
-  - Connecting over HTTP / SOCKS proxy is required
 
 ### Q: What is UDP acceleration and why is iOS 13 / Server 4.30 required?
 
