@@ -16,7 +16,8 @@ Compared with other products, Trip Reader focuses on the display of practical in
 <a href='https://play.google.com/store/apps/details?id=com.domosekai.cardreader'><img alt='Get it on Google Play' height="50" src='google-play-badge.png'/></a>
 </p>
 
-中国Android用户可[点此](https://support.domosekai.com/download/)下载安装包（不可用于升级Google Play版），当前版本1.6.9。中国版除不含Google服务外，与Google版暂无功能差异。
+中国Android用户可[点此](https://support.domosekai.com/download/)下载安装包（不可用于升级Google Play版），当前版本1.6.9。
+中国版除不含Google服务外，与Google版暂无功能差异。
 
 [FAQ (Chinese Only)](faq.html)
 
@@ -29,6 +30,14 @@ Some of the data used in Trip Reader is published at the address below to benefi
 读卡识途使用的部分数据已在以下地址公开，以鼓励NFC相关的开发活动。
 
 https://github.com/domosekai/tripreader-data
+
+## Issue reporting
+
+Please use our issue tracking system. 
+
+请使用以下系统进行反馈，并附上截图等材料。
+
+https://support.domosekai.com/bugs/
 
 ## Credits
 
