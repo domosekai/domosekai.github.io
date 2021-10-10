@@ -12,7 +12,7 @@ The Trip Reader app is a Free app developed by an individual and does not carry 
 
 However, suggestions, comments and any form of feedback are more than welcome. 
 
-To contact the developer, please email to support@domosekai.com or use our issue tracking system.
+Please use our issue tracking system.
 
 https://support.domosekai.com/bugs/
 
@@ -22,7 +22,7 @@ https://support.domosekai.com/bugs/
 
 但是，我非常欢迎任何意见、建议或反馈。
 
-如有需要请写邮件至support@domosekai.com或使用以下问题反馈系统。
+如有需要请使用以下问题反馈系统。
 
 https://support.domosekai.com/bugs/
 
@@ -32,7 +32,7 @@ https://support.domosekai.com/bugs/
 
 但是，我非常歡迎任何意見、建議或反饋。
 
-如有需要請寫郵件至support@domosekai.com或使用以下問題報告系統。
+如有需要請使用以下問題報告系統。
 
 https://support.domosekai.com/bugs/
 
@@ -42,7 +42,7 @@ https://support.domosekai.com/bugs/
 
 しかし、コメントやアドバイスなどは大歓迎です。
 
-support@domosekai.comにメールするか、以下の報告システムにご利用ください。
+以下の報告システムをご利用ください。
 
 https://support.domosekai.com/bugs/
 
