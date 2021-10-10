@@ -31,7 +31,7 @@ Some of the data used in Trip Reader is published at the address below to benefi
 
 https://github.com/domosekai/tripreader-data
 
-## Issue reporting
+## Report an issue
 
 Please use our issue tracking system. 
 
@@ -43,6 +43,6 @@ https://support.domosekai.com/bugs/
 
 **This app has been made better ❤ by contributions from (list not complete):**
 
-Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, 虹羽, 龙腾四海, 马丁, 千葉, 晴转の多云, 随便, 笑脸, 快乐的棒棒唐, 眼泪, 羊局驼段, 恒沐, 雨鸽, 黑森林里会迷路, 走马行酒醴, 同宇工作室, 夜空守望者, 北陽, BH2SEB, 机智轩の微視角, 兰Love新一, HXD3CA7501, 龙牙, 暖暖小柿子, 艾拉, 化身大禹治水的染色体, 杨诚, 城市通卡, WarmMarine, ycn, Robert Lyu, Guy Zhang, 无聊, 魔王, Neptune, 細貓Lil Cat, 黄柏之, line17, 小鱼吐泡泡, 吃貨一枚, 冰糖炖雪梨咕咕咕, 老赵, 南惊西露, lsr, 上局鄞段, 小东, 六里桥北里, Summer, 佳洁士, Ay, Chihyuen, HXD 3C1037, wchjia, 千里兰新路
+Chenyue Feng, 涛涨流, RisingTank, Lyu Han, 一月东城殇, Panda, Rayista, 虹羽, 龙腾四海, 马丁, 千葉, 晴转の多云, 随便, 笑脸, 快乐的棒棒唐, 眼泪, 羊局驼段, 恒沐, 雨鸽, 黑森林里会迷路, 走马行酒醴, 同宇工作室, 夜空守望者, 北陽, BH2SEB, 机智轩の微視角, 兰Love新一, HXD3CA7501, 龙牙, 暖暖小柿子, 艾拉, 化身大禹治水的染色体, 杨诚, 城市通卡, WarmMarine, ycn, Robert Lyu, Guy Zhang, 无聊, 魔王, Neptune, 細貓Lil Cat, 黄柏之, line17, 小鱼吐泡泡, 吃貨一枚, 冰糖炖雪梨咕咕咕, 老赵, 南惊西露, lsr, 上局鄞段, 小东, 六里桥北里, Summer, 佳洁士, Ay, Chihyuen, HXD 3C1037, wchjia, 千里兰新路, 大象
 
 © 2020–2021 Domosekai Limited.  All rights reserved.
