@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Trip Reader
+title: Trip Reader 读卡识途
 description: NFC Reader for Public Transit Cards in China
 ---
 
@@ -17,6 +17,7 @@ Compared with other products, Trip Reader focuses on the display of practical in
 </p>
 
 中国Android用户可[点此](https://support.domosekai.com/download/)下载安装包（不可用于升级Google Play版）。
+
 中国版除不含Google服务外，与Google版暂无功能差异。
 
 [FAQ (Chinese Only)](faq.html)
@@ -35,7 +36,7 @@ https://github.com/domosekai/tripreader-data
 
 Please use our issue tracking system. 
 
-请使用以下系统进行反馈，并附上截图等材料。
+如有任何问题，请使用以下系统进行反馈，并附上截图等材料。
 
 https://support.domosekai.com/bugs/
 
