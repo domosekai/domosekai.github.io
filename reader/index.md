@@ -32,13 +32,14 @@ Some of the data used in Trip Reader is published at the address below to benefi
 
 https://github.com/domosekai/tripreader-data
 
-## Report an issue
+## Discussion
 
-Please use our issue tracking system. 
+You are welcome to join our [Telegram channel][channel], or use the [tracking system][issue] to report an issue directly.
 
-如有任何问题，请使用以下系统进行反馈，并附上截图等材料。
+欢迎订阅[Telegram频道][channel]并参与讨论，或直接使用[反馈系统][issue]提交问题。
 
-https://support.domosekai.com/bugs/
+[channel]: https://t.me/tripreader
+[issue]: https://support.domosekai.com/bugs/
 
 ## Credits
 
