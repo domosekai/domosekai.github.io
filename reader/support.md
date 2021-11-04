@@ -8,13 +8,11 @@ description: NFC Reader for Public Transit Cards in China
 
 **English**
 
-The Trip Reader app is a Free app developed by an individual and does not carry any warranty.
+Trip Reader is a free app developed by an individual and does not carry any warranty.
 
 However, suggestions, comments and any form of feedback are more than welcome. 
 
-Please use our issue tracking system.
-
-https://support.domosekai.com/bugs/
+You are welcome to join our [Telegram channel][channel], or use the [tracking system][issue] to report an issue directly.
 
 **简体中文**
 
@@ -22,9 +20,7 @@ https://support.domosekai.com/bugs/
 
 但是，我非常欢迎任何意见、建议或反馈。
 
-如有需要请使用以下问题反馈系统。
-
-https://support.domosekai.com/bugs/
+欢迎订阅[Telegram频道][channel]并参与讨论，或直接使用[反馈系统][issue]提交问题。
 
 **繁體中文**
 
@@ -32,9 +28,7 @@ https://support.domosekai.com/bugs/
 
 但是，我非常歡迎任何意見、建議或反饋。
 
-如有需要請使用以下問題報告系統。
-
-https://support.domosekai.com/bugs/
+歡迎訂閱[Telegram頻道][channel]並參與討論，或直接透過[反饋平台][issue]提交問題。
 
 **日本語**
 
@@ -42,7 +36,8 @@ https://support.domosekai.com/bugs/
 
 しかし、コメントやアドバイスなどは大歓迎です。
 
-以下の報告システムをご利用ください。
+[Telegramチャネル][channel]に参加し、または[バグ管理システム][issue]をご利用ください。
 
-https://support.domosekai.com/bugs/
+[channel]: https://t.me/tripreader
+[issue]: https://support.domosekai.com/bugs/
 
