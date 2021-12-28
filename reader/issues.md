@@ -82,6 +82,12 @@ description: NFC Reader for Public Transit Cards in China
 
 - 焦作公交：雄帝卡机将交易地错写为枣庄市
 
+- 三门峡公交：部分闸机不写1E文件，无法识别站点和交易类型
+
+- 陕县公交：错写为许昌
+
+- 卢氏公交：交易地错写为发卡地
+
 ### 安徽省
 
 - 合肥地铁：使用错误的Epoch，导致1E记录时间为30年前
@@ -173,7 +179,3 @@ description: NFC Reader for Public Transit Cards in China
 - 定西公交：不写城市和收单机构代码，无法识别交易地
    
 - 白银公交：错写为发卡地
-   
-### 新疆自治区
-
-- 乌鲁木齐公交：雄帝卡机错写肇庆、三亚
