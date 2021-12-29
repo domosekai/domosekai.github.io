@@ -73,6 +73,8 @@ description: NFC Reader for Public Transit Cards in China
 ### 河南省
 
 - 郑州地铁：部分闸机不写1E文件，无法识别站点和交易类型
+
+- 洛阳地铁：2号线不写线路和站点，且部分闸机辅助类型错写02，被app识别为公交
    
 - 开封公交：雄帝卡机错写为发卡地
    
