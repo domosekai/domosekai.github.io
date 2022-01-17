@@ -247,7 +247,7 @@ PKCS #12 is the default format on Windows platform and also supported by SoftEth
 
 You need to obtain the P12 file from your administrator and place it on your device. This can be done in several ways:
 
-- Via iTunes File Sharing on a computer
+- Via Finder or iTunes File Sharing on a computer (see links below)
 - Email the file to yourself, long press the attachment and choose *Save to Files*
 - Save in iCloud Drive or other cloud drive that can be accessed by the Files app
 
@@ -256,6 +256,18 @@ When the certificate is on your device, import it into the app by tapping *Impor
 The certificate (and its private key) will be saved in the keychain. For security reasons, please delete the file after import or keep it in a secure place.
 
 A certificate can be used by multiple profiles.
+
+**Guide on using the Finder to share files from a computer**
+
+*For macOS Catalina or later*
+
+https://support.apple.com/en-us/HT210598
+
+**Guide on using iTunes to share files from a computer**
+
+*For macOS Mojave or earlier or a Windows PC*
+
+https://support.apple.com/en-us/HT201301
 
 ### Q: How to remove a certificate?
 
