@@ -108,9 +108,9 @@ If you have an existing connection setting file (.vpn) from SoftEther VPN Client
   
 - **Password** 
 
-  *Required for password-based authentication*
-
   Fill in your password. Passwords are saved in the keychain, protected by iOS.
+  
+  If nothing is entered, you will be asked for the password upon connecting.
   
 - **Certificate** 
 
@@ -205,7 +205,7 @@ https://support.apple.com/en-us/HT210176
 
 https://support.apple.com/en-us/HT211025
 
-The most important changes are:
+The most important requirements are:
 
 - RSA key size must be at least 2048 bits
 - Hash algorithm should be in the SHA-2 family (such as SHA256)
@@ -242,7 +242,6 @@ Only use it as the last resort and always consult your administrator first.
 ### Q: How to import my certificates?
 
 The first step of using certificate-based authentication is importing your certificates. Currently the app only accepts certificates packed in PKCS #12 format (.p12 or .pfx files). 
-According to iOS policy, the P12 file must be password-protected.
 
 PKCS #12 is the default format on Windows platform and also supported by SoftEther VPN Server.
 
