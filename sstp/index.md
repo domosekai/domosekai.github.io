@@ -21,24 +21,20 @@ We do not have any affiliation with either Microsoft Corporation or SoftEther Co
 
 - **Lightweight**
 
-  No ads, analytics or other 3rd-party SDK
+  No ads, analytics or other 3rd-party SDK.
   
 - **Privacy**
 
   No data is collected from you. Log only exists in the memory and is never saved to the device.
-  
-  Passwords and certificates are saved in the keychain, protected by iOS.
-  
+    
 - **Native**
 
-  Standard iOS TLS stack ensuring stability and security
+  Standard iOS TLS stack, ensuring stability and security.
   
 - **Security**
 
-  Authentication with password or certificate
-  
-  Certificates packed in PKCS #12 format (.p12, .pfx) are required. SSTP requires iOS 12+.
-  
+  Passwords and certificates are always saved in the keychain, protected by iOS.
+    
 - **IPv6**
 
   Support IPv6 network and tunnel (stateless tunnel only, DHCPv6 not supported)
@@ -51,15 +47,21 @@ We do not have any affiliation with either Microsoft Corporation or SoftEther Co
 
   Support SoftEther VPN Client Manager connection setting files (.vpn)
 
-## Server Platforms
+## Supported Server Platforms
 
-- Microsoft Windows Server RRAS
+- Microsoft Windows Server (2008 and later)
 - Microsoft Azure P2S VPN
-- MikroTik RouterOS*
+- MikroTik RouterOS (servers configured without certificates are not supported)
 - SoftEther VPN Server
 - VPN Azure
 
-\* Servers configured without certificates are not supported.
+## Supported Authentication Methods
+
+- SSTP: Password or Certificate* (PEAP, EAP-TLS, EAP-MSCHAPv2, MSCHAPv2, CHAP, PAP)
+
+- SoftEther: Password (including NT Domain) or Certificate*
+
+\* Certificates packed in PKCS #12 format (.p12, .pfx) are required. SSTP requires iOS 12+.
 
 ## Support
 
