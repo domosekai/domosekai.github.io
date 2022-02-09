@@ -118,9 +118,15 @@ If you have an existing connection setting file (.vpn) from SoftEther VPN Client
 
   Import and select the certificate you want to use. Certificates (including private keys) are saved in the keychain, protected by iOS.
   
-  See below for how to import certificates. SoftEther protocol accepts RSA certificates only.
+  See below for how to import certificates. SoftEther VPN supports RSA certificates only.
   
-- **Enable EAP-MSCHAPv2**
+- **Enable PEAP**
+
+  *SSTP only*
+
+  Enable if the server requires PEAP for authentication. Available on iOS 12+.
+  
+- **Enable EAP**
 
   *SSTP only*
 
@@ -361,8 +367,9 @@ Domain Being Evaluated: companyinternal.com (this will match *.companyinternal.c
 
 ### Q: Do you offer the same connectivity as the Windows built-in SSTP client?
 
-In most cases we provide the same connectivity as the official client. However in these situations our app does not work for you.
-  - PEAP authentication is required
+In most cases we provide the same connectivity as the official client. All standard authentication methods provided by Windows Server RRAS are supported.
+
+If you think you might have a special case, please discuss with us.
 
 ## SoftEther Questions
 
