@@ -183,3 +183,7 @@ description: NFC Reader for Public Transit Cards in China
 - 定西公交：不写城市和收单机构代码，无法识别交易地
    
 - 白银公交：错写为发卡地
+
+### 海南省
+
+- 三亚公交：不写1E文件，无法识别交易地和交易类型
