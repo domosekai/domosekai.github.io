@@ -30,7 +30,17 @@ We do not employ any third-party companies and individuals as Service Providers.
 
 (Updated on 2021-03-16) UDP acceleration function (SoftEther VPN only) may obtain your external IP address from public STUN servers operated by Google. 
 The address information is then sent to your designated VPN server to establish direct UDP connections.
-During the process no personal information is sent to Google, except that the IP address may be logged by Google according to its internal policy.
+
+During the process no personal information is sent to Google, except that the source IP address may be logged by Google according to its internal policy.
+
+(Updated on 2022-03-24) NAT traversal (NAT-T) function (SoftEther VPN only) sends your connection information to the NAT-T server managed by SoftEther Corporation,
+in order to find the actual port used by the specified server.
+In particular, these information is sent to the NAT-T server:
+- Server IP address
+- Server hostname
+- NAT-T hint (if any)
+
+During the process no personal information is sent to SoftEther, except that the source IP address may be logged by SoftEther according to its internal policy.
 
 **Children’s Privacy**
 
@@ -40,7 +50,7 @@ These Services do not address anyone under the age of 13. We do not knowingly co
 
 We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.
 
-This policy is effective as of 2021-03-16
+This policy is effective as of 2021-03-16.
 
 **Contact Us**
 
