@@ -94,6 +94,10 @@ If you have an existing connection setting file (.vpn) from SoftEther VPN Client
 
   Whether to enable the NAT traversal feature. NAT-T is helpful when the server cannot open ports or does not have a public IP address.
   
+  However, NAT-T does not work in all cases. Please refer to the official explanation from SoftEther.
+  
+  https://www.softether.org/4-docs/2-howto/6.VPN_Server_Behind_NAT_or_Firewall/1.Dynamic_DNS_and_NAT_Traversal
+  
 - **Authentication Method**
 
   Choose either password or certificate. 
@@ -381,6 +385,11 @@ If you think you might have a special case, please discuss with us.
 
 In most cases we provide the same connectivity as the official client. However in these situations our app does not work for you.
   - NAT traversal or direct UDP connection is required to connect to the server
+
+### Q: What is UDP acceleration?
+
+SoftEther by default connects via direct TCP and data packets are transferred over TCP as well. UDP acceleration enables sending and receiving data packets over UDP. 
+Although it's called acceleration, the speed may or may not be better than TCP, depending heavily on your network condition.
 
 ### Q: How do I know whether I am using UDP or TCP? Why is UDP not working sometimes?
 
