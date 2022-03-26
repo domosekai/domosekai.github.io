@@ -102,9 +102,7 @@ SoftEther VPN クライアントマネージャ接続設定ファイル(.vpn)を
 
   NAT-T機能はグローバルIPアドレスを持っていないサーバやポートの開放ができない場合などに重要です。必要に応じて有効にしてください。
   
-  しかしすべての場合に機能するというわけではありません。詳細はSoftEther公式説明をご参照ください。
-  
-  https://ja.softether.org/4-docs/2-howto/6.VPN_Server_Behind_NAT_or_Firewall/1.Dynamic_DNS_and_NAT_Traversal
+  しかしすべての場合に機能するというわけではありません。詳細はSoftEther[公式説明](https://ja.softether.org/4-docs/2-howto/6.VPN_Server_Behind_NAT_or_Firewall/1.Dynamic_DNS_and_NAT_Traversal)をご参照ください。
 
 - **認証方式**
 
