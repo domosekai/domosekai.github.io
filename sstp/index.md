@@ -25,7 +25,7 @@ We do not have any affiliation with either Microsoft Corporation or SoftEther Co
 
 - **Native**
 
-  To the extent possible, only native iOS libraries are used, including most importantly the TLS stack. We believe this ensures best stability and security. (Apple's SwiftNIO framework is also used.)
+  To the extent possible, native iOS libraries are used, including most importantly the TLS stack. We believe this ensures best stability and security. (Apple's SwiftNIO framework is also used.)
   
   Unlike some apps, SSTP Connect saves connections natively so that you can start a connection from the system. No need to open the app and it will work just the same.
 
@@ -45,8 +45,6 @@ We do not have any affiliation with either Microsoft Corporation or SoftEther Co
 
   Your passwords and certificates are only stored in the iOS keychain. SSTP Connect never saves them locally for convenience or other reasons.
   
-  When importing a certificate, it's copied to the keychain instantly so the file can be safely deleted.
-
 - **IPv6 Ready**
 
   IPv6 is not the next generation. It's now and SSTP Connect is ready for that.
