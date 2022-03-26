@@ -84,17 +84,21 @@ If you have an existing connection setting file (.vpn) from SoftEther VPN Client
   
 - **UDP Acceleration**
 
-  *SoftEther only*
+  *SoftEther only and requires iOS 12+*
 
   Whether to enable the UDP acceleration feature. 
   
-  Available in iOS 13+ and SoftEther Server 4.30+.
+- **NAT Traversal (NAT-T)**
 
+  *SoftEther only and requires iOS 12+*
+
+  Whether to enable the NAT traversal feature. NAT-T is helpful when the server cannot open ports or does not have a public IP address.
+  
 - **Authentication Method**
 
   Choose either password or certificate. 
   
-  Authentication with certificate is supported in iOS 12 and above.
+  Authentication with certificate in SSTP is supported on iOS 12 and above.
   
 - **Username** 
 
@@ -122,9 +126,9 @@ If you have an existing connection setting file (.vpn) from SoftEther VPN Client
   
 - **Enable PEAP**
 
-  *SSTP only*
+  *SSTP only and requires iOS 12+*
 
-  Enable if the server requires PEAP for authentication. Available on iOS 12+.
+  Enable if the server requires PEAP for authentication.
   
 - **Enable EAP**
 
@@ -377,15 +381,6 @@ If you think you might have a special case, please discuss with us.
 
 In most cases we provide the same connectivity as the official client. However in these situations our app does not work for you.
   - NAT traversal or direct UDP connection is required to connect to the server
-
-### Q: What is UDP acceleration and why is iOS 13 / Server 4.30 required?
-
-SoftEther by default connects via direct TCP and data packets are transferred over TCP as well. UDP acceleration enables sending and receiving data packets over UDP. 
-Although it's named acceleration, the speed may or may not be better than TCP, depending heavily on your network condition.
-
-SoftEther has historically implemented two versions of UDP acceleration. The original version encrypts data with RC4 cipher, which has been proved insecure and Apple has ceased its support since iOS 10. 
-
-The newer version was introduced in Server 4.30 (Build 9695) and uses ChaCha20-Poly1305 as cipher. Starting iOS 13, Apple has native support to it. 
 
 ### Q: How do I know whether I am using UDP or TCP? Why is UDP not working sometimes?
 
