@@ -19,49 +19,53 @@ We do not have any affiliation with either Microsoft Corporation or SoftEther Co
 
 ## Features
 
-- **Lightweight**
+- **Simplicity**
 
-  No ads, analytics or other 3rd-party SDK.
-  
-- **Privacy**
+  VPN clients ought to be small and simple. Therefore we don't place ads, analytics or other 3rd-party SDK in the app. Size can tell.
 
-  No data is collected from you. Log only exists in the memory and is never saved to the device.
-    
 - **Native**
 
-  Standard iOS TLS stack, ensuring stability and security.
+  To the extent possible, native iOS libraries are used, including most importantly the TLS stack. We believe this ensures best stability and security. (Apple's SwiftNIO framework is also used.)
   
+  Unlike some apps, SSTP Connect saves connections natively so that you can start a connection from the system. No need to open the app and it will work just the same.
+
+- **Privacy**
+
+  Please read our privacy policy. We promise that no data is collected from you. Moreover, connection log only exists in the memory and is never saved to the device.
+
+- **Authentication Methods**
+
+  Password and certificate-based authentication is supported for both protocols. (iOS 12+ required for certificate authentication in SSTP)
+  
+  SSTP authentication methods: PEAP, EAP-TLS, EAP-MSCHAPv2, MSCHAPv2, CHAP, PAP
+  
+  SoftEther authentication methods: Password (including RADIUS / NT Domain), Certificate
+
 - **Security**
 
-  Passwords and certificates are always saved in the keychain, protected by iOS.
-    
-- **IPv6**
-
-  Support IPv6 network and tunnel (stateless tunnel only, DHCPv6 not supported)
+  Your passwords and certificates are only stored in the iOS keychain. SSTP Connect never saves them locally for convenience or other reasons.
   
-- **UDP**
+- **IPv6 Ready**
 
-  Support SoftEther UDP acceleration (requires iOS 13+ and SoftEther Server 4.30+)
+  IPv6 is not the next generation. It's now and SSTP Connect is ready for that.
+  
+  Of course server connections are IPv6 ready but there is more. VPN tunnel is also IPv6 capable (stateless only, DHCPv6 not yet supported), provided the server has IPv6 configured.
 
-- **Import**
+- **More than TCP**  *SoftEther Only*
 
-  Support SoftEther VPN Client Manager connection setting files (.vpn)
+  You can use the advanced NAT traversal (NAT-T) and UDP acceleration technology, just like you do with the official client. (iOS 12+ required)
+
+- **Easy Import**  *SoftEther Only*
+
+  Wondering how to copy VPN connections from the official SoftEther client? SSTP Connect can read connection setting files (.vpn) so import work is a piece of cake.
 
 ## Supported Server Platforms
 
-- Microsoft Windows Server (2008 and later)
+- Microsoft Windows Server 2008 and later
 - Microsoft Azure P2S VPN
 - MikroTik RouterOS (servers configured without certificates are not supported)
 - SoftEther VPN Server
 - VPN Azure
-
-## Supported Authentication Methods
-
-- SSTP: Password or Certificate* (PEAP, EAP-TLS, EAP-MSCHAPv2, MSCHAPv2, CHAP, PAP)
-
-- SoftEther: Password (including NT Domain) or Certificate*
-
-\* Certificates packed in PKCS #12 format (.p12, .pfx) are required. SSTP requires iOS 12+.
 
 ## Support
 
@@ -73,6 +77,6 @@ We do not have any affiliation with either Microsoft Corporation or SoftEther Co
 
 ## Legal
 
-Since version 3.0, SSTP Connect uses [SwiftNIO](https://github.com/apple/swift-nio), an Apple project released under Apache License 2.0.
+Since version 3.0, SSTP Connect uses [SwiftNIO](https://github.com/apple/swift-nio), a network framework released by Apple under Apache License 2.0.
   
-© 2020–2021 Domosekai Limited.  All rights reserved.
+© 2020–2022 Domosekai Limited.  All rights reserved.
