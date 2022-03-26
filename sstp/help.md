@@ -381,8 +381,9 @@ If you think you might have a special case, please discuss with us.
 
 ### Q: If I can connect using the official SoftEther Client, does that mean I can use this app too?
 
-In most cases we provide the same connectivity as the official client. However in these situations our app does not work for you.
-  - NAT traversal or direct UDP connection is required to connect to the server
+In most cases we provide the same connectivity as the official client. Both direct (TCP) and NAT-T connections are supported.
+
+If you think you might have a special case, please discuss with us.
 
 ### Q: What is UDP acceleration?
 
