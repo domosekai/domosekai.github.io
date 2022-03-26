@@ -94,9 +94,7 @@ If you have an existing connection setting file (.vpn) from SoftEther VPN Client
 
   Whether to enable the NAT traversal feature. NAT-T is helpful when the server cannot open ports or does not have a public IP address.
   
-  However, NAT-T does not work in all cases. Please refer to the official explanation from SoftEther.
-  
-  https://www.softether.org/4-docs/2-howto/6.VPN_Server_Behind_NAT_or_Firewall/1.Dynamic_DNS_and_NAT_Traversal
+  However, NAT-T does not work in all cases. Please refer to the [official explanation](https://www.softether.org/4-docs/2-howto/6.VPN_Server_Behind_NAT_or_Firewall/1.Dynamic_DNS_and_NAT_Traversal) from SoftEther.
   
 - **Authentication Method**
 
