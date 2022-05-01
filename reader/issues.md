@@ -128,7 +128,7 @@ description: NFC Reader for Public Transit Cards in China
    
 ### 福建省
 
-- 福州地铁：1号线不写1E文件，无法识别站点和交易类型
+- 福州地铁：1、5号线不写1E文件，无法识别站点和交易类型
    
 - 福州公交：天津通卡卡机对本地卡不写1E文件，无法识别交易地和交易类型
    
