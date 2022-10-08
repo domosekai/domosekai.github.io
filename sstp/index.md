@@ -17,6 +17,8 @@ We do not have any affiliation with either Microsoft Corporation or SoftEther Co
 
 <a href='https://apps.apple.com/us/app/sstp-connect/id1543667909?itsct=apps_box&itscg=30200'><img alt='Download on the App Store' height="50" hspace="20" src='Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg'/></a>
 
+*Runs on iOS 9 and later (also on Macs with Apple silicon)*
+
 ## Features
 
 - **Simplicity**
@@ -58,6 +60,10 @@ We do not have any affiliation with either Microsoft Corporation or SoftEther Co
 - **Easy Import**  *SoftEther Only*
 
   Wondering how to copy VPN connections from the official SoftEther client? SSTP Connect can read connection setting files (.vpn) so import work is a piece of cake.
+
+- **Routing**
+
+  Accept static routes pushed from the server or add your own entries. Full control!
 
 ## Supported Server Platforms
 

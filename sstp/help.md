@@ -163,7 +163,25 @@ If you have an existing connection setting file (.vpn) from SoftEther VPN Client
   Select whether to add the default route so that Internet traffic will be routed via VPN.
   
   In iOS built-in VPN the option is called *Send All Traffic*.
-  
+
+- **Advanced Routing**
+
+  By default, SSTP Connect takes static routes pushed by the remote DHCP server. You can disable the function if it causes any trouble.
+
+  If you are also the server administrator, please note that not all SSTP VPN servers support this function. We have confirmed its operation on Windows Server RRAS and SoftEther VPN Server.
+
+  You can also add your own routes, by defining the destinations that should be routed to the VPN and those should not.
+
+  Please note that although you can enter default routes, it's still controlled by the *Add Default Route* switch.
+
+  Destinations can be specified in the following formats.
+
+  - `IP` *a single address, e.g. 8.8.8.8*
+  - `IP/Mask len` *a subnet, e.g. 10.0.0.0/8*
+  - `IP/Mask len/Gateway` *a subnet with gateway (next hop), e.g. 192.168.2.0/24/192.168.1.254*
+
+  Gateways only affect SoftEther VPN. For SSTP VPN, gateways are ignored and determined by the server.
+
 - **Proxy**
 
   Specify the proxy settings inside the VPN tunnel.
@@ -426,12 +444,12 @@ iOS version, server build and NAT types need to be satisfying the UDP accelerati
 ### Q: Can I connect to the VPN Gate service?
 
 Yes. Use these information when you connnect to VPN Gate servers.
-  - Server: xx.opengw.net (or IP address)
-  - Hostname: xx.opengw.net (only required if an IP is entered as server)
+  - Server: `xx.opengw.net` (or IP address)
+  - Hostname: `xx.opengw.net` (only required if an IP is entered as server)
   - Port: TCP port number (UDP is not supported)
-  - Virtual Hub: vpngate
-  - Username: vpn
-  - Password: vpn
+  - Virtual Hub: `vpngate`
+  - Username: `vpn`
+  - Password: `vpn`
 
 CAUTION: VPN Gate servers are provided by various contributors around the world. We do not have any affiliation with them or the project, 
 nor do we ensure connectivity or security in any form. 
