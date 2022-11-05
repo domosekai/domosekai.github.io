@@ -211,6 +211,8 @@ If you have an existing connection setting file (.vpn) from SoftEther VPN Client
   When an existing VPN session is on mobile network and the device connects to Wi-Fi, by default the session will stay on mobile. Enable this option to allow upgrading to Wi-Fi.
   
   Note that the upgrade is controlled by iOS and might not always work. For example, if the current mobile connection is made over IPv6 but the Wi-Fi is IPv4 only, there is chance that the upgrade will not occur. 
+  
+  We also noticed that NAT-T connections (SoftEther VPN) often need a manual switch to Wi-Fi.
 
 - **Stay Connected During Sleep**
 
