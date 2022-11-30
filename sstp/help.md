@@ -172,13 +172,13 @@ If you have an existing connection setting file (.vpn) from SoftEther VPN Client
   You can also add your own routes, by defining the destinations that should be routed to the VPN and those should not, with each category holding up to
   1024 characters.
 
-  Please note that although you can add default routes, it's still controlled by the *Add Default Route* switch.
-
   Destinations can be specified in the following formats.
 
   - `IP` *a single address, e.g. 8.8.8.8*
   - `IP/Mask len` *a subnet, e.g. 10.0.0.0/8*
   - `IP/Mask len/Gateway` *a subnet with gateway (next hop), e.g. 192.168.2.0/24/192.168.1.254*
+
+  Although you can add default routes, please note that it's still controlled by the *Add Default Route* switch.
 
   Gateways only affect SoftEther VPN. For SSTP VPN, gateways are ignored and determined by the server.
 
