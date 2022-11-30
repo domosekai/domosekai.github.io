@@ -167,12 +167,12 @@ If you have an existing connection setting file (.vpn) from SoftEther VPN Client
 - **Advanced Routing**
 
   By default, SSTP Connect takes static routes pushed by the remote DHCP server. You can disable the function if it causes any trouble.
+  If you are the server administrator, please note that not all SSTP VPN servers support this function. We have confirmed its operation on Windows Server RRAS and SoftEther VPN Server.
 
-  If you are also the server administrator, please note that not all SSTP VPN servers support this function. We have confirmed its operation on Windows Server RRAS and SoftEther VPN Server.
+  You can also add your own routes, by defining the destinations that should be routed to the VPN and those should not, with each category holding up to
+  1024 characters.
 
-  You can also add your own routes, by defining the destinations that should be routed to the VPN and those should not.
-
-  Please note that although you can enter default routes, it's still controlled by the *Add Default Route* switch.
+  Please note that although you can add default routes, it's still controlled by the *Add Default Route* switch.
 
   Destinations can be specified in the following formats.
 
