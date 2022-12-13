@@ -60,7 +60,11 @@ SoftEther VPN is developed by Daiyuu Nobori and SoftEther Corporation. It encaps
 
 - **Routing**
 
-  Accept static routes pushed from the server or add your own entries. Full control!
+  Accept static routes pushed from the server or add your own entries.
+  
+- **Shortcut**
+
+  Control VPN state and create automation with Shortcuts.
 
 ## SSTP authentication methods
 
