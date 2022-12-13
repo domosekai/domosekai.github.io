@@ -227,6 +227,8 @@ If you have an existing connection setting file (.vpn) from SoftEther VPN Client
 
 Yes, you can. Your profiles are saved in the system with your credentials in the keychain. Therefore, you can connect and disconnect the VPN without opening the app.
 
+Please turn on notifications so that in case there are errors you will be notified immediately when the app is not in the foreground. (Requiring iOS 10+)
+
 ## TLS Server Trust Evaluation (TLS Validation)
 
 ### Q: What requirements should a server certificate meet in order to pass TLS validation?
@@ -387,6 +389,26 @@ For example, you can setup the following rule that if some internal website is b
 Action: Connect If Needed
 Domain Being Evaluated: companyinternal.com (this will match *.companyinternal.com)
 ```
+
+### Q: What kind of shortcuts do you support?
+
+As of version 3.8, we support the following shortcuts via the Shortcuts app.
+
+- Turn VPN On / Off
+  
+  Specify the VPN profile you want to use. If nothing is specified and the action is Turn Off, the active VPN connection will be turned off.
+  
+- Toggle the state of VPN
+  
+  Specify the VPN profile you want to use. 
+  
+- Check the state of VPN
+  
+  Specify the VPN profile you want to use. If nothing is specified, the active connection (if any) will be reported.
+  
+- Get VPN log
+  
+  Return the log (text file) of the active connection. Do nothing if no active connection.
 
 ## SSTP Questions
 
