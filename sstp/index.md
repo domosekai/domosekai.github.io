@@ -80,6 +80,7 @@ SoftEther VPN is developed by Daiyuu Nobori and SoftEther Corporation. It encaps
 - Password
 - RADIUS / NT Domain Password
 - Certificate
+- Anonymous
 
 ## Supported Server Platforms
 
