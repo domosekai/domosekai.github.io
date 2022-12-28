@@ -50,21 +50,26 @@ If you have an existing connection setting file (.vpn) from SoftEther VPN Client
   
 - **Hostname**
 
-  Server hostname that will be used in the TLS server trust evaluation.
+  Server hostname that will be used in the TLS server verification.
 
   If you entered a hostname in the server field, you don't need to fill in the same hostname again.
   
-  If you entered an IP address in the server field, please fill in the hostname here that matches the server certificate, otherwise TLS validation will fail.
+  If you entered an IP address in the server field, please fill in the hostname here that matches the server certificate, otherwise TLS verification will fail.
 
 - **Port**
 
   Port number of the server. By default it's `443`.
   
-- **TLS Server Trust Evaluation**
+- **TLS Server Verification**
 
-  TLS validation verifies the server's identity and protects you from MITM (man-in-the-middle) attacks. We **STRONGLY RECOMMEND** you enable it at all times.
+  TLS verification examines the server's identity and protects you from MITM (man-in-the-middle) attacks. We **STRONGLY RECOMMEND** you enable it at all times.
 
-  If the server uses non-public certificates, additional steps may be needed to pass TLS validation. See below for more information.
+  For servers using non-public certificates, additional steps may be needed to pass TLS verification. See below for more information.
+  
+  If the server fails the verification, you will be asked whether to ignore the error and continue.
+  You can also save the certificate so that no questions will be asked next time, provided the certificate remains unchanged.
+  
+  We **STRONGLY RECOMMEND** you fix the certificate issue in the first place and use the above method as the last resort only.
   
 - **Virtual Hub**
 
@@ -229,9 +234,9 @@ Yes, you can. Your profiles are saved in the system with your credentials in the
 
 Please turn on notifications so that in case there are errors you will be notified immediately when the app is not in the foreground. (Requiring iOS 10+)
 
-## TLS Server Trust Evaluation (TLS Validation)
+## TLS Server Verification
 
-### Q: What requirements should a server certificate meet in order to pass TLS validation?
+### Q: What requirements should a server certificate meet in order to pass TLS server verification?
 
 iOS has implemented more strict rules on server certificates since iOS 13. See below link for more information.
 
@@ -263,12 +268,6 @@ iOS should prompt you that a profile is now ready to install.
 To install it: https://support.apple.com/en-us/HT209435
 
 To trust it: https://support.apple.com/en-us/HT204477
-
-### Q: Can I disable TLS validation?
-
-Generally speaking, you should never disable TLS validation. However, in some circumstances you may want to do so (e.g. the server uses an obsolete or weak certificate and you can’t change it). 
-
-Only use it as the last resort and always consult your administrator first.
 
 ## Authentication with Certificates
 
