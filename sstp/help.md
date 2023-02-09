@@ -135,6 +135,8 @@ If you have an existing connection setting file (.vpn) from SoftEther VPN Client
   
 - **EAP Configuration**
 
+  *SSTP only*
+
   Advanced EAP configuration settings.
     
 - **Enable PAP / CHAP**
@@ -407,7 +409,7 @@ As of version 3.8, we support the following shortcuts via the Shortcuts app.
 
 ### Q: Do you offer the same connectivity as the Windows built-in SSTP client?
 
-In most cases we provide the same connectivity as the official client. All password and certificate-based authentication methods are supported.
+In most cases we provide the same connectivity as the official client. All password and certificate-based authentication methods available in Windows 11 are supported.
 
 If you think you might have a special case, please discuss with us.
 
