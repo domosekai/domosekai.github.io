@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome to Domosekai
+title: Welcome to Domosekai Limited
 ---
 
 ## Our Products
@@ -29,4 +29,4 @@ title: Welcome to Domosekai
 
 Based in Hong Kong, we aim to bring new possibilities to you, in their simplest way.
 
-© 2021 Domosekai Limited.  All rights reserved.
+© 2020–2023 Domosekai Limited.  All rights reserved.
