@@ -32,11 +32,13 @@ SoftEther VPN is developed by Daiyuu Nobori and SoftEther Corporation. It encaps
 
   No data is collected from you. Connection log only exists in the memory and is never saved to the device.
 
-- **Authentication**
+- **Complete**
   
-  Support password and certificate-based authentication. See details below.
+  Support all password and certificate-based authentications available in Windows 11.
   
-  *SSTP certificate authentication requires iOS 12+*
+  Support user and machine authentication at the same time with TEAP (EAP chaining).
+  
+  See details below.
 
 - **Security**
   
@@ -66,16 +68,20 @@ SoftEther VPN is developed by Daiyuu Nobori and SoftEther Corporation. It encaps
 
   Control VPN state and create automation with Shortcuts.
 
-## SSTP authentication methods
+## SSTP Authentication Methods
 
-- PEAP
-- EAP-TLS
+- PEAP*
+- EAP-TTLS*
+- TEAP* (EAP chaining)
+- EAP-TLS*
 - EAP-MSCHAPv2
 - MSCHAPv2
 - CHAP
 - PAP
 
-## SoftEther authentication methods
+*Requires iOS 12+
+
+## SoftEther Authentication Methods
 
 - Password
 - RADIUS / NT Domain Password
@@ -105,4 +111,4 @@ Since version 3.0, SSTP Connect uses [SwiftNIO](https://github.com/apple/swift-n
 SSTP Connect is a third-party implementation based on Microsoft Open Specifications and SoftEther VPN source code. 
 We do not have any affiliation with either Microsoft Corporation or SoftEther Corporation.
   
-© 2020–2022 Domosekai Limited.  All rights reserved.
+© 2020–2023 Domosekai Limited.  All rights reserved.
