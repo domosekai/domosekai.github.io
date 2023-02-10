@@ -36,7 +36,7 @@ SoftEther VPN is developed by Daiyuu Nobori and SoftEther Corporation. It encaps
   
   Support all password and certificate-based authentications available in Windows 11.
   
-  Support user and machine authentication at the same time with TEAP (EAP chaining).
+  Support authenticating by password and certificate at the same time with TEAP (EAP chaining).
   
   See details below.
 
