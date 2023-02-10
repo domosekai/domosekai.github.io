@@ -411,6 +411,8 @@ As of version 3.8, we support the following shortcuts via the Shortcuts app.
 
 In most cases we provide the same connectivity as the official client. All password and certificate-based authentication methods available in Windows 11 are supported.
 
+In the case that you authenticate with a certificate installed on your Windows device, make sure you can export it including the private key.
+
 If you think you might have a special case, please discuss with us.
 
 ## SoftEther Questions
