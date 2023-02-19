@@ -56,9 +56,9 @@ SoftEther VPN is developed by Daiyuu Nobori and SoftEther Corporation. It encaps
   
   *Requiring iOS 12+*
 
-- **Easy Import** *SoftEther Only*
+- **Easy Import and Export**
 
-  Reading connection settings from SoftEther Client Manager is a piece of cake.
+  Not only from SSTP Connect, reading connection settings from SoftEther Client Manager is also a piece of cake.
 
 - **Routing**
 
@@ -79,7 +79,7 @@ SoftEther VPN is developed by Daiyuu Nobori and SoftEther Corporation. It encaps
 - CHAP
 - PAP
 
-*Requires iOS 12+
+* Requires iOS 12+
 
 ## SoftEther Authentication Methods
 
