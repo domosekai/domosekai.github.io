@@ -20,9 +20,16 @@ These items are needed for a profile:
   - Username and password (or certificate)
   - Virtual Hub name (SoftEther only)
 
-If you have an existing connection setting file (.vpn) from SoftEther VPN Client Manager, you can import it as a new profile by:
+If you have an existing SSTP Connect configuration file or a connection setting file from SoftEther VPN Client Manager,
+you can import it by either:
   - clicking + and choose *Import From File*, or
   - opening / sharing the file to the app.
+
+### Q: How to edit or delete a profile?
+
+Swipe right to edit and swipe left to delete a profile.
+
+You can also tap Edit to enter the edit mode. You will find edit and delete buttons at the bottom.
 
 ### Q: What are the items in a profile and what do they mean?
 
