@@ -483,6 +483,58 @@ nor do we ensure connectivity or security in any form.
 
 USE THESE SERVERS AT YOUR OWN RISK!
 
+## Import & Export
+
+### Q: What are the file formats supported?
+
+You can import from a SSTP Connect configuration file, or a SoftEther VPN connection setting file.
+They are both ended in `.vpn` but are not compatible with each other.
+
+A SSTP Connect configuration file can contain multiple VPN profiles.
+
+The export format is always SSTP Connect. We do not support exporting in SoftEther VPN format.
+
+### Q: Can I edit a SSTP Connect configuration file?
+
+SSTP Connect configuration files use the JSON format.
+You are not encouraged to edit them by hand but if you wish to, you can do it with a JSON editor at your own risk.
+
+### Q: How is my sensitive information saved in the configuration file if I do not add a password?
+
+Passwords and private keys are saved in base64 encoding if not protected by passwords.
+Anyone can reveal the plain text by using a base64 decoder.
+
+### Q: How is my sensitive information encrypted if I add a password?
+
+Passwords and private keys are encrypted using AEAD_AES_256_CBC_HMAC_SHA_384,
+as described in [draft-mcgrew-aead-aes-cbc-hmac-sha2-05](https://datatracker.ietf.org/doc/draft-mcgrew-aead-aes-cbc-hmac-sha2/).
+
+The base64-encoded AEAD ciphertexts ("C", as defined in 2.1) are saved in the corresponding fields.
+
+AEAD_AES_256_CBC_HMAC_SHA_384 requires a key ("K") and associated data ("A") in order to work.
+
+The associated data is the username to the password.
+If a username is not available for a private key, the certificate label is used instead.
+
+### Q: How is the encryption key ("K") derived?
+
+Key derivation uses the PBKDF2 algorithm, with the following inputs:
+
+- Password: From user input
+- Salt: Randomly generated 128 bits
+- PRF: HMAC-SHA1
+- Iterations: 10000
+
+The derived key is 56-octet in length, as required by AEAD_AES_256_CBC_HMAC_SHA_384.
+
+A different key is generated for each export file. The random salt is included in the file.
+
+With the above information, you can independently verify the encryption result.
+
+### Q: Is the encryption secure enough?
+
+It depends. No encryption is secure unless your password is strong.
+
 ## Other
 
 ### Q: Sometimes the WiFi icon goes off with the VPN icon for several seconds. What's going on?
