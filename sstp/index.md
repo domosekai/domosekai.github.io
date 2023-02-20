@@ -79,7 +79,7 @@ SoftEther VPN is developed by Daiyuu Nobori and SoftEther Corporation. It encaps
 - CHAP
 - PAP
 
-* Requires iOS 12+
+\* Require iOS 12+
 
 ## SoftEther Authentication Methods
 
