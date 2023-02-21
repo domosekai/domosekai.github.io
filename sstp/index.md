@@ -20,7 +20,7 @@ SoftEther VPN is developed by Daiyuu Nobori and SoftEther Corporation. It encaps
 
 - **Native**
 
-  Only iOS native libraries are used in the core function, including the TLS stack.
+  Only iOS native libraries are used in the core function, including the TLS stack. No OpenSSL.
   
   Connections are saved natively so that you can start a connection from the system settings.
 
@@ -38,7 +38,7 @@ SoftEther VPN is developed by Daiyuu Nobori and SoftEther Corporation. It encaps
   
   Support authenticating by password and certificate at the same time with TEAP (EAP chaining).
   
-  See details below.
+  Protocol details below.
 
 - **Security**
   
