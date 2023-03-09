@@ -22,7 +22,7 @@ These items are needed for a profile:
 
 If you have an existing SSTP Connect configuration file or a connection setting file from SoftEther VPN Client Manager,
 you can import it by either:
-  - clicking + and choose *Import From File*, or
+  - clicking + and choose *Import From File*, *Import From URL*, or
   - opening / sharing the file to the app.
 
 ### Q: How to edit or delete a profile?
@@ -497,7 +497,7 @@ The export format is always SSTP Connect. We do not support exporting in SoftEth
 ### Q: Can I edit a SSTP Connect configuration file?
 
 SSTP Connect configuration files use the JSON format.
-You are not encouraged to edit them by hand but if you wish to, you can do it with a JSON editor at your own risk.
+You are not encouraged to edit by hand but if you wish to, you can do it with a JSON editor at your own risk.
 
 ### Q: How is my sensitive information saved in the configuration file if I do not add a password?
 
