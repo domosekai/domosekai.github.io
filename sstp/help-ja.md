@@ -24,9 +24,9 @@ SoftEther VPN を利用する場合、以下の記事もご参考にしてくだ
 
 - [SoftEther VPNによるVPN環境構築(20) 「SSTP Connect」、SoftEther VPN独自プロトコルにも対応したモバイルアプリ](https://solomon-review.net/construct-softether-vpn-20/)
 
-SSTP Connect設定ファイルまたは SoftEther VPN 接続設定ファイルをお持ちの場合、以下の方法でインポートすることもできます：
-- 右上の + をタップして、「ファイルからインポート」を選択、または
-- 別のアプリから共有/開く。
+SSTP Connect 設定ファイルまたは SoftEther VPN 接続設定ファイルをお持ちの場合、以下の方法でインポートできます：
+- 右上の + をタップして、「ファイルからインポート」か「URLからインポート」を選択、または
+- 他のアプリから共有する。
 
 ### Q：プロファイルを編集/削除するには？
 
