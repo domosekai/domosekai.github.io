@@ -9,6 +9,8 @@ description: NFC Reader for Public Transit Cards in China
 ### 辽宁省
 
 - 沈阳公交：雄帝卡机将交易地错写为发卡地
+
+- 大连公交：金州公交智达牌卡机在1E文件城市和线路字段均写0
    
 ### 吉林省
 
