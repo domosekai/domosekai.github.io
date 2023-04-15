@@ -53,8 +53,6 @@ You can also tap Edit to enter the edit mode. You will find edit and delete butt
 
   However, if your DNS provider is unreliable, or you want to enforce connecting via IPv4 or IPv6 (if the server is dual-stack), you can use an IP address instead. 
 
-  System proxy will automatically be used in iOS 12 and above.
-  
 - **Hostname**
 
   Server hostname that will be used in the TLS server verification.
@@ -427,6 +425,8 @@ If you think you might have a special case, please discuss with us.
 ### Q: If I can connect using the official SoftEther Client, does that mean I can use this app too?
 
 In most cases we provide the same connectivity as the official client. Both direct (TCP) and NAT-T connections are supported.
+
+However, connections via ICMP or DNS are not supported.
 
 If you think you might have a special case, please discuss with us.
 
