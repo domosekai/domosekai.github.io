@@ -2,6 +2,7 @@
 layout: default
 title: Trip Reader 读卡识途
 description: NFC Reader for Public Transit Cards in China
+appid: 1488582968
 ---
 
 ## Introduction

@@ -2,6 +2,7 @@
 layout: default
 title: SSTP Connect
 description: SSTP / SoftEther VPN Client for iOS
+appid: 1543667909
 ---
 
 ## Introduction
