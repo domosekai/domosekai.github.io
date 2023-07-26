@@ -170,6 +170,9 @@ You can also tap Edit to enter the edit mode. You will find edit and delete butt
   
   In iOS built-in VPN the option is called *Send All Traffic*.
 
+  Please note that the DNS servers of the VPN interface may not be used if a default route is not in place.
+  You may need to use IP addresses directly or add an internal DNS domain to access the remote LAN.
+
 - **Advanced Routing**
 
   By default, SSTP Connect takes static routes pushed by the remote DHCP server. You can disable the function if it causes any trouble.
