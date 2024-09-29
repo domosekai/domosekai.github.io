@@ -75,6 +75,8 @@ description: NFC Reader for Public Transit Cards in China
 ### 陕西省
 
 - 西安公交：德卡卡机将交易地错写为发卡地
+
+- 西安高新云巴：长安通本地交通联合卡交易时不写1E文件，无法识别站点
    
 - 安康公交：雄帝卡机错写为新疆
    
