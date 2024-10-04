@@ -39,6 +39,8 @@ You are welcome to join our [Telegram channel][channel], or use the [tracking sy
 
 欢迎订阅[Telegram频道][channel]并参与讨论，或直接使用[反馈系统][issue]提交问题。
 
+Android users can become our beta testers on Google Play. iOS users may join TestFlight via this [link](https://testflight.apple.com/join/Bl1meNOB).
+
 [channel]: https://t.me/tripreader
 [issue]: https://support.domosekai.com/bugs/
 
