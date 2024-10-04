@@ -41,6 +41,8 @@ You are welcome to join our [Telegram channel][channel], or use the [tracking sy
 
 Android users can become our beta testers on Google Play. iOS users may join TestFlight via this [link](https://testflight.apple.com/join/Bl1meNOB).
 
+Android用户可在Google Play上成为我们的测试者，iOS用户可通过此[链接](https://testflight.apple.com/join/Bl1meNOB)加入TestFlight。
+
 [channel]: https://t.me/tripreader
 [issue]: https://support.domosekai.com/bugs/
 
