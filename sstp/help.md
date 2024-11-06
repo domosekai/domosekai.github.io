@@ -8,6 +8,21 @@ description: SSTP / SoftEther VPN Client for iOS
 
 # FAQ
 
+## To Mac users
+
+**Important!!**
+
+From version 3.9.6, SSTP Connect is available on the Mac App Store.
+If you are an existing user who has been using SSTP Connect on a Mac with Apple silicon,
+please note that you may need to refresh the VPN profiles on the new Mac version.
+
+To refresh a profile, you can either
+- Edit it and save, or
+- Export and re-import.
+
+We are sorry for the inconvenience caused by the transition from an iOS app (only runs on Apple silicon) to a Mac app (also runs on Intel Macs).
+Please feel free to contact us if you still have questions.
+
 ## General
 
 ### Q: How to start?
