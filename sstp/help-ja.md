@@ -1,7 +1,7 @@
 ---
 layout: default
 title: SSTP Connect
-description: SSTP / SoftEther VPN Client for iOS
+description: SSTP / SoftEther VPN Client for iOS and macOS
 ---
 
 [English Version](help.html)
@@ -18,7 +18,7 @@ description: SSTP / SoftEther VPN Client for iOS
 新しい Mac バージョンでは **VPN プロファイルを改めて作るまたは更新する**必要がある可能性がございます。
 
 既存のプロファイルを更新するには、
-- 編集してそのまま保存する、または
+- （右クリックで）編集してそのまま保存する、または
 - エクスポートして再度インポートします。
 
 iOS アプリ (Apple シリコンにのみ対応) から Mac アプリ (Apple シリコンと Intel Mac に対応) への移行により、ご不便をおかけして申し訳ございません。
