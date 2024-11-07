@@ -19,7 +19,7 @@ title: Welcome to Domosekai Limited
 
 <a href='sstp/index.html'><img align="left" width="76" height="76" src="sstp-icon.png"/></a>
 
-&nbsp;&nbsp;&nbsp;&nbsp;#1 SSTP / SoftEther VPN client on iOS
+&nbsp;&nbsp;&nbsp;&nbsp;#1 SSTP / SoftEther VPN client on iOS and macOS
   
 &nbsp;&nbsp;&nbsp;&nbsp;First iOS native solution
 
@@ -29,4 +29,4 @@ title: Welcome to Domosekai Limited
 
 Based in Hong Kong, we aim to bring new possibilities to you, in their simplest way.
 
-© 2020–2023 Domosekai Limited.  All rights reserved.
+© 2020–2024 Domosekai Limited.  All rights reserved.
