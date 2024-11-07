@@ -17,7 +17,7 @@ If you are an existing user who has been using SSTP Connect on a Mac with Apple 
 please note that **you may need to refresh or create new VPN profiles** on the new Mac version.
 
 To refresh an existing profile, you can either
-- right-click to open Edit and save again (no need to change anything), or
+- right-click to open Edit and save (no need to change anything), or
 - export and re-import.
 
 We are sorry for the inconvenience caused by the transition from an iOS app (only runs on Apple silicon) to a Mac app (also runs on Intel Macs).
