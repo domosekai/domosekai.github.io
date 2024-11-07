@@ -1,7 +1,7 @@
 ---
 layout: default
 title: SSTP Connect
-description: SSTP / SoftEther VPN Client for iOS
+description: SSTP / SoftEther VPN Client for iOS and macOS
 appid: 1543667909
 ---
 
@@ -15,13 +15,13 @@ SoftEther VPN is developed by Daiyuu Nobori and SoftEther Corporation. It encaps
 
 <a href='https://apps.apple.com/us/app/sstp-connect/id1543667909?itsct=apps_box&itscg=30200'><img alt='Download on the App Store' height="50" hspace="20" src='Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg'/></a>
 
-*Runs on iOS 9 and later (also on Macs with Apple silicon)*
+*Available on both iOS and Mac App Store*
 
 ## Features
 
 - **Native**
 
-  Only iOS native libraries are used in the core function, including the TLS stack. No OpenSSL.
+  Only native libraries are used in the core function, including the TLS stack. No OpenSSL.
   
   Connections are saved natively so that you can start a connection from the system settings.
 
@@ -43,7 +43,7 @@ SoftEther VPN is developed by Daiyuu Nobori and SoftEther Corporation. It encaps
 
 - **Security**
   
-  Passwords and certificates are stored in the iOS keychain. SSTP Connect never saves them locally for convenience.
+  Passwords and certificates are stored in the keychain. SSTP Connect never saves them locally for convenience.
 
 - **IPv6 Ready**
 
@@ -55,8 +55,6 @@ SoftEther VPN is developed by Daiyuu Nobori and SoftEther Corporation. It encaps
 
   Support NAT traversal (NAT-T) and UDP acceleration just like the official SoftEther client.
   
-  *Requiring iOS 12+*
-
 - **Easy Import and Export**
 
   Not only from SSTP Connect, reading connection settings from SoftEther Client Manager is also a piece of cake.
@@ -71,16 +69,14 @@ SoftEther VPN is developed by Daiyuu Nobori and SoftEther Corporation. It encaps
 
 ## SSTP Authentication Methods
 
-- PEAP*
-- EAP-TTLS*
-- TEAP* (EAP chaining)
-- EAP-TLS*
+- PEAP
+- EAP-TTLS
+- TEAP (EAP chaining)
+- EAP-TLS
 - EAP-MSCHAPv2
 - MSCHAPv2
 - CHAP
 - PAP
-
-\* Require iOS 12+
 
 ## SoftEther Authentication Methods
 
@@ -112,4 +108,4 @@ Since version 3.0, SSTP Connect uses [SwiftNIO](https://github.com/apple/swift-n
 SSTP Connect is a third-party implementation based on Microsoft Open Specifications and SoftEther VPN source code. 
 We do not have any affiliation with either Microsoft Corporation or SoftEther Corporation.
   
-© 2020–2023 Domosekai Limited.  All rights reserved.
+© 2020–2024 Domosekai Limited.  All rights reserved.
