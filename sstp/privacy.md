@@ -1,7 +1,7 @@
 ---
 layout: default
 title: SSTP Connect
-description: SSTP / SoftEther VPN Client for iOS
+description: SSTP / SoftEther VPN Client for iOS and macOS
 ---
 
 # Privacy Policy
@@ -28,10 +28,10 @@ Your Log Data remains in your device and we do not collect that from you.
 
 We do not employ any third-party companies and individuals as Service Providers.
 
-(Updated on 2021-03-16) UDP acceleration function (SoftEther VPN only) may obtain your external IP address from public STUN servers operated by Google. 
+(Updated on 2024-11-06) UDP acceleration function (SoftEther VPN only) may obtain your external IP address from public STUN servers ("STUN providers") operated by Google and others. 
 The address information is then sent to your designated VPN server to establish direct UDP connections.
 
-During the process no personal information is sent to Google, except that the source IP address may be logged by Google according to its internal policy.
+During the process no personal information is sent to STUN providers, except that the source IP address may be logged by STUN providers according to their internal policy.
 
 (Updated on 2022-03-24) NAT traversal (NAT-T) function (SoftEther VPN only) sends your connection information to the NAT-T server managed by SoftEther Corporation,
 in order to find the actual port used by the specified server.
