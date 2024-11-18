@@ -8,20 +8,6 @@ description: SSTP / SoftEther VPN Client for iOS and macOS
 
 # FAQ
 
-## To Mac users
-
-**Important!!**
-
-From version 3.9.6, SSTP Connect is available on the Mac App Store.
-
-However, users who have been using SSTP Connect on a Mac with Apple silicon may experience issues with existing VPN profiles.
-The issue has been fixed in version 3.9.7.
-Please upgrade immediately if you are affected.
-
-We are sorry for the inconvenience caused by the transition from an iOS app (only runs on Apple silicon) to a Mac app (also runs on Intel Macs).
-
-Please feel free to contact us if you still have questions. You can find our support email below.
-
 ## General
 
 ### Q: How to start?
@@ -237,13 +223,23 @@ You can also tap Edit to enter the edit mode. You will find edit and delete butt
   
   We also noticed that NAT-T connections (SoftEther VPN) often need a manual switch to Wi-Fi.
 
-- **Stay Connected During Sleep**
+- **On Sleep**
 
-  Choose whether to disconnect the VPN as the device goes to sleep.
+  Choose the behavior of the VPN as the device goes to sleep.
   
-  Disabling the option saves battery but reconnection may take some time.
+  - Off
 
-  Even with the option set to on, the VPN is not guaranteed to survive a sleep as the sleep and wake-up is handled by iOS. 
+    Disconnect VPN with no automatic reconnect
+
+  - Pause
+
+    Disconnect VPN and reconnects at wake-up
+
+  - Stay
+
+    Stay connected during sleep
+
+  Even with the option set to stay, the VPN is not guaranteed to survive a sleep as the sleep and wake-up is handled by iOS. 
   In particular we have noticed that when both mobile data and WiFi is on, connections over WiFi may not stay on during sleep. Switching off mobile data may help.
   
 ### Q: Can I connect or disconnect via system VPN settings?
