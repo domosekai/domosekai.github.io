@@ -17,6 +17,11 @@ SoftEther VPN is developed by Daiyuu Nobori and SoftEther Corporation. It encaps
 
 *Available on both iOS and Mac App Store*
 
+## News
+
+  Some users are experiencing timeouts after upgrading to iOS 18.4 / macOS 15.4.
+  Please see [here](ios184.html) for details.
+  
 ## Features
 
 - **Native**
