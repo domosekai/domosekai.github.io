@@ -8,6 +8,11 @@ description: SSTP / SoftEther VPN Client for iOS and macOS
 
 # FAQ
 
+## News
+
+  Some users are experiencing timeouts after upgrading to iOS 18.4 / macOS 15.4.
+  Please see [here](ios184.html) for details.
+  
 ## General
 
 ### Q: How to start?
